@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+export QT_SELECT := qt5
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	lrelease src/src.pro
+	mkdir qm
+	mv language/*.qm qm
+	dh_auto_install
+
+override_dh_auto_clean:
+	rm -r qm build plugins
+	dh_auto_clean

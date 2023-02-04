@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: fi_FI\n"
+"X-Qt-Contexts: true\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Patrice Coni <patrice.coni-dev@yandex.com>\n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:26
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:34
+msgctxt "About|"
+msgid "About"
+msgstr "Noin"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:82
+msgctxt "About|"
+msgid ""
+"<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
+"\">UltimateDailyWallpaper</span></p></body></html>"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:89
+msgctxt "About|"
+msgid ""
+"<html><head/><body><p><span style=\" font-size:12pt;\">Version: </span></p></"
+"body></html>"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:133
+msgctxt "About|"
+msgid "tab0"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:178
+msgctxt "About|"
+msgid "label_4"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:191
+msgctxt "About|"
+msgid "label_5"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:204
+msgctxt "About|"
+msgid "label_6"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:230
+msgctxt "About|"
+msgid "tab1"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:257
+msgctxt "About|"
+msgid "TextLabel"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:316
+msgctxt "About|"
+msgid "pushButton_3"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:335
+msgctxt "About|"
+msgid "pushButton"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:20
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:58
+msgctxt "PhotoBrowser|"
+msgid "Load stored picture"
+msgstr "Lataa tallennettu kuva"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:90
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:187
+msgctxt "PhotoBrowser|"
+msgid "&Set as wallpaper"
+msgstr "&Aseta taustakuvaksi"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:174
+msgctxt "PhotoBrowser|"
+msgid "Select a photo"
+msgstr "Valitse valokuva"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:282
+msgctxt "PhotoBrowser|"
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Select date: </"
+"span></p></body></html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Valitse päivämäärä: "
+"</span></p></body></html>"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:325
+msgctxt "PhotoBrowser|"
+msgid "&Set current date"
+msgstr "&Nykyisen päivämäärän asettaminen"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:382
+msgctxt "PhotoBrowser|"
+msgid "<html><head/><body><p>Show photos of past days: </p></body></html>"
+msgstr ""
+"<html><head/><body><p>Näytä kuvia menneistä päivistä: </p></body></html>"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:449
+msgctxt "PhotoBrowser|"
+msgid "&Show pictures"
+msgstr "&Näytä kuvat"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:23
+msgctxt "SettingsWindow|"
+msgid "Settings"
+msgstr "Asetukset"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:37
+msgctxt "SettingsWindow|"
+msgid ""
+"<html><head/><body><p>Location to save background photos: </p></body></html>"
+msgstr "<html><head/><body><p>Taustakuvien tallennuspaikka: </p></body></html>"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:55
+msgctxt "SettingsWindow|"
+msgid "Choose"
+msgstr "Valita"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:72
+msgctxt "SettingsWindow|"
+msgid "Delete wallpapers older than (days): "
+msgstr "Poista taustakuvia, jotka ovat vanhempia kuin (päivää): "
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:121
+msgctxt "SettingsWindow|"
+msgid "Change desktop background photo automatically"
+msgstr "Työpöydän taustakuvan automaattinen vaihtaminen"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:141
+msgctxt "SettingsWindow|"
+msgid ""
+"<html><head/><body><p>Time of day for changing wallpaper automatically: </"
+"p></body></html>"
+msgstr ""
+"<html><head/><body><p>Kellonaika taustakuvan vaihtamiseen automaattisesti: </"
+"p></body></html>"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:181
+msgctxt "SettingsWindow|"
+msgid "Run Application at startup"
+msgstr "Suorita sovellus käynnistyksen yhteydessä"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:198
+msgctxt "SettingsWindow|"
+msgid "Change lock screen wallpaper if possible"
+msgstr "Vaihda lukitusnäytön taustakuva, jos mahdollista"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:240
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:170
+msgctxt "SettingsWindow|"
+msgid "Reset"
+msgstr "Nollata"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:272
+msgctxt "SettingsWindow|"
+msgid "Save settings"
+msgstr "Säästää"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:291
+msgctxt "SettingsWindow|"
+msgid "Cancel"
+msgstr "Perua"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:35
+msgctxt "About|"
+msgid "Currently used plugin"
+msgstr "Tällä hetkellä käytetty laajennus"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:41
+msgctxt "About|"
+msgid "License: GPL-3.0+"
+msgstr "Lisenssi: GPL-3.0+"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:45
+msgctxt "About|"
+msgid "Version: "
+msgstr "Versio: "
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:51
+msgctxt "About|"
+msgid "Patrice Coni"
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:53
+msgctxt "About|"
+msgid "Copyright © 2022 - "
+msgstr ""
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:59
+msgctxt "About|"
+msgid "A simple application for changing wallpaper"
+msgstr "Yksinkertainen sovellus taustakuvan vaihtamiseen"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:61
+msgctxt "About|"
+msgid "Close"
+msgstr "Sulkea"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:62
+msgctxt "About|"
+msgid "Visit website"
+msgstr "Käy verkkosivustolla"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:87
+msgctxt "MainWindow|"
+msgid ""
+"No connection to the internet.\n"
+"The application will be closed."
+msgstr ""
+"Ei yhteyttä Internetiin.\n"
+"Hakemus suljetaan."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:283
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:294
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:700
+msgctxt "MainWindow|"
+msgid "Error"
+msgstr "Virhe"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:283
+msgctxt "MainWindow|"
+msgid "No plugins found."
+msgstr "Laajennuksia ei löytynyt."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:289
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:695
+msgctxt "MainWindow|"
+msgid "done."
+msgstr "valmis."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:290
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:696
+msgctxt "MainWindow|"
+msgid "Used plugin: "
+msgstr "Käytetty laajennus: "
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:294
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:700
+msgctxt "MainWindow|"
+msgid "Error while loading plugin."
+msgstr "Virhe ladattaessa laajennusta."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:376
+msgctxt "MainWindow|"
+msgid ""
+"An error was detected when starting the application.\n"
+"The application will be closed."
+msgstr ""
+"Sovellusta käynnistettäessä havaittiin virhe.\n"
+"Hakemus suljetaan."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:410
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:762
+msgctxt "MainWindow|"
+msgid "No connection to the internet."
+msgstr "Ei yhteyttä Internetiin."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:410
+msgctxt "MainWindow|"
+msgid "Please check your internet connection."
+msgstr "Tarkista Internet-yhteytesi."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:685
+msgctxt "MainWindow|"
+msgid "&Provider"
+msgstr "&Toimittaja"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:723
+msgctxt "MainWindow|"
+msgid "&About this picture and license"
+msgstr "&Tietoja tästä kuvasta ja Lisenssi"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:727
+msgctxt "MainWindow|"
+msgid "&About this picture and copyright"
+msgstr "&Tietoja tästä kuvasta ja tekijänoikeuksista"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:734
+msgctxt "MainWindow|"
+msgid "&Download past pictures"
+msgstr "&Lataa aiempia kuvia"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:738
+msgctxt "MainWindow|"
+msgid "&Load stored picture"
+msgstr "&Lataa tallennettu kuva"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:741
+msgctxt "MainWindow|"
+msgid "&Settings"
+msgstr "&Asetukset"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:744
+msgctxt "MainWindow|"
+msgid "&About"
+msgstr "&Noin"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:747
+msgctxt "MainWindow|"
+msgid "&Quit"
+msgstr "&Lopettaa"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:822
+msgctxt "MainWindow|"
+msgid "Description: \n"
+msgstr "Kuvaus: \n"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:1313
+msgctxt "MainWindow|"
+msgid "Load plugin..."
+msgstr "Suorita laajennus..."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:142
+msgctxt "PhotoBrowser|"
+msgid "Error"
+msgstr "Virhe"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:142
+msgctxt "PhotoBrowser|"
+msgid "Error while loading plugin."
+msgstr "Virhe ladattaessa laajennusta."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:147
+msgctxt "PhotoBrowser|"
+msgid "Past pictures of the day (Wikimedia Commons)"
+msgstr "Päivän aiemmat kuvat (Wikimedia Commons)"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:195
+msgctxt "PhotoBrowser|"
+msgid "Get more information"
+msgstr "Hanki lisätietoja"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:373
+msgctxt "PhotoBrowser|"
+msgid "Details"
+msgstr "Tiedot"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:377
+msgctxt "PhotoBrowser|"
+msgid "Please select a picture."
+msgstr "Valitse kuva."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:385
+msgctxt "PhotoBrowser|"
+msgid "Title: "
+msgstr "Nimike: "
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:392
+msgctxt "PhotoBrowser|"
+msgid "Description: "
+msgstr "Kuvaus: "
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:398
+msgctxt "PhotoBrowser|"
+msgid "Picture size:"
+msgstr "Kuvan koko:"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:408
+msgctxt "PhotoBrowser|"
+msgid "Preview:"
+msgstr "Ennakkoesitys:"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:487
+msgctxt "PhotoBrowser|"
+msgid "The entered date must not be in the future."
+msgstr "Syötetty päivämäärä ei saa olla tulevaisuudessa."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:446
+msgctxt "QProgressDialog|"
+msgid "Download in progress..."
+msgstr "Lataus käynnissä..."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:569
+msgctxt "QProgressDialog|"
+msgid "Working in progress..."
+msgstr "Keskeneräiset työt..."
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:136
+msgctxt "SettingsWindow|"
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:136
+msgctxt "SettingsWindow|"
+msgid ""
+"The application will be restart for the changes to take effect. Do you want "
+"save the changes?"
+msgstr ""
+"Sovellus käynnistetään uudelleen, jotta muutokset tulevat voimaan. Haluatko "
+"tallentaa muutokset?"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:149
+msgctxt "SettingsWindow|"
+msgid "Select directory"
+msgstr "Valitse hakemisto"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:170
+msgctxt "SettingsWindow|"
+msgid ""
+"This will reset all settings to the default settings. All existing "
+"wallpapers will be deleted. Do you want to continue?"
+msgstr ""
+"Tämä palauttaa kaikki asetukset oletusasetuksiin. Kaikki olemassa olevat "
+"taustakuvat poistetaan. Haluatko jatkaa?"
+
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:73
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:129
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:141
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:165
+#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:201
+msgctxt "setWallpaper|"
+msgid "Error - Failed to set wallpaper."
+msgstr "Taustakuvan asettaminen epäonnistui."
