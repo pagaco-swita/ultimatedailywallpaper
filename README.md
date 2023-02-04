@@ -40,4 +40,4 @@ $ make -f Makefile
 ![Screenshot](https://github.com/pagaco-swita/ultimatedailywallpaper/blob/main/screenshots/load_existing_picture.png)
 
 ### Download past picture of the day from Wikimedia Commons
-![Screenshot](https://github.com/pagaco-swita/ultimatedailywallpaper/blob/main/screenshots/download_picture.png)
+![Screenshot](https://github.com/pagaco-swita/ultimatedailywallpaper/blob/main/screenshots/download_picture.png.png)
