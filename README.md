@@ -38,6 +38,3 @@ $ make -f Makefile
 
 ### Load stored picture
 ![Screenshot](https://github.com/pagaco-swita/ultimatedailywallpaper/blob/main/screenshots/load_existing_picture.png)
-
-### Download past picture of the day from Wikimedia Commons
-![Screenshot](https://github.com/pagaco-swita/ultimatedailywallpaper/blob/main/screenshots/download_picture.png.png)
