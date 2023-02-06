@@ -14,84 +14,84 @@ msgstr ""
 "Language: it_IT\n"
 "X-Generator: Poedit 2.4.2\n"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:26
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:34
+#: ../src/about.ui:26
+#: ../src/about.cpp:34
 msgctxt "About|"
 msgid "About"
 msgstr "Circa"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:82
+#: ../src/about.ui:82
 msgctxt "About|"
 msgid ""
 "<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
 "\">UltimateDailyWallpaper</span></p></body></html>"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:89
+#: ../src/about.ui:89
 msgctxt "About|"
 msgid ""
 "<html><head/><body><p><span style=\" font-size:12pt;\">Version: </span></p></"
 "body></html>"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:133
+#: ../src/about.ui:133
 msgctxt "About|"
 msgid "tab0"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:178
+#: ../src/about.ui:178
 msgctxt "About|"
 msgid "label_4"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:191
+#: ../src/about.ui:191
 msgctxt "About|"
 msgid "label_5"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:204
+#: ../src/about.ui:204
 msgctxt "About|"
 msgid "label_6"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:230
+#: ../src/about.ui:230
 msgctxt "About|"
 msgid "tab1"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:257
+#: ../src/about.ui:257
 msgctxt "About|"
 msgid "TextLabel"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:316
+#: ../src/about.ui:316
 msgctxt "About|"
 msgid "pushButton_3"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.ui:335
+#: ../src/about.ui:335
 msgctxt "About|"
 msgid "pushButton"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:20
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:58
+#: ../src/photobrowser.ui:20
+#: ../src/photobrowser.ui:58
 msgctxt "PhotoBrowser|"
 msgid "Load stored picture"
 msgstr "Carica immagine memorizzata"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:90
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:187
+#: ../src/photobrowser.ui:90
+#: ../src/photobrowser.ui:187
 msgctxt "PhotoBrowser|"
 msgid "&Set as wallpaper"
 msgstr "&Imposta come sfondo"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:174
+#: ../src/photobrowser.ui:174
 msgctxt "PhotoBrowser|"
 msgid "Select a photo"
 msgstr "Seleziona una foto"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:282
+#: ../src/photobrowser.ui:282
 msgctxt "PhotoBrowser|"
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:700;\">Select date: </"
@@ -100,28 +100,28 @@ msgstr ""
 "<html><head/><body><p><span style=\" font-weight:700;\">Seleziona la data: </"
 "span></p></body></html>"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:325
+#: ../src/photobrowser.ui:325
 msgctxt "PhotoBrowser|"
 msgid "&Set current date"
 msgstr "&Imposta la data corrente"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:382
+#: ../src/photobrowser.ui:382
 msgctxt "PhotoBrowser|"
 msgid "<html><head/><body><p>Show photos of past days: </p></body></html>"
 msgstr ""
 "<html><head/><body><p>Mostra le foto dei giorni passati: </p></body></html>"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.ui:449
+#: ../src/photobrowser.ui:449
 msgctxt "PhotoBrowser|"
 msgid "&Show pictures"
 msgstr "&Mostra immagini"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:23
+#: ../src/settingswindow.ui:23
 msgctxt "SettingsWindow|"
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:37
+#: ../src/settingswindow.ui:37
 msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Location to save background photos: </p></body></html>"
@@ -129,22 +129,22 @@ msgstr ""
 "<html><head/><body><p>Posizione per salvare le foto di sfondo: </p></body></"
 "html>"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:55
+#: ../src/settingswindow.ui:55
 msgctxt "SettingsWindow|"
 msgid "Choose"
 msgstr "Scegliere"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:72
+#: ../src/settingswindow.ui:72
 msgctxt "SettingsWindow|"
 msgid "Delete wallpapers older than (days): "
 msgstr "Eliminare gli sfondi più vecchi di (giorni): "
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:121
+#: ../src/settingswindow.ui:121
 msgctxt "SettingsWindow|"
 msgid "Change desktop background photo automatically"
 msgstr "Cambia automaticamente la foto di sfondo del desktop"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:141
+#: ../src/settingswindow.ui:141
 msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Time of day for changing wallpaper automatically: </"
@@ -153,73 +153,73 @@ msgstr ""
 "<html><head/><body><p>Ora del giorno per cambiare automaticamente lo sfondo: "
 "</p></body></html>"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:181
+#: ../src/settingswindow.ui:181
 msgctxt "SettingsWindow|"
 msgid "Run Application at startup"
 msgstr "Esegui applicazione all'avvio"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:198
+#: ../src/settingswindow.ui:198
 msgctxt "SettingsWindow|"
 msgid "Change lock screen wallpaper if possible"
 msgstr "Cambia lo sfondo della schermata di blocco, se possibile"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:240
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:170
+#: ../src/settingswindow.ui:240
+#: ../src/settingswindow.cpp:170
 msgctxt "SettingsWindow|"
 msgid "Reset"
 msgstr "Resettare"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:272
+#: ../src/settingswindow.ui:272
 msgctxt "SettingsWindow|"
 msgid "Save settings"
 msgstr "Salvare"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.ui:291
+#: ../src/settingswindow.ui:291
 msgctxt "SettingsWindow|"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:35
+#: ../src/about.cpp:35
 msgctxt "About|"
 msgid "Currently used plugin"
 msgstr "Plugin attualmente utilizzato"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:41
+#: ../src/about.cpp:41
 msgctxt "About|"
 msgid "License: GPL-3.0+"
 msgstr "Licenza: GPL-3.0+"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:45
+#: ../src/about.cpp:45
 msgctxt "About|"
 msgid "Version: "
 msgstr "Versione: "
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:51
+#: ../src/about.cpp:51
 msgctxt "About|"
 msgid "Patrice Coni"
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:53
+#: ../src/about.cpp:53
 msgctxt "About|"
 msgid "Copyright © 2022 - "
 msgstr ""
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:59
+#: ../src/about.cpp:59
 msgctxt "About|"
 msgid "A simple application for changing wallpaper"
 msgstr "Una semplice applicazione per cambiare carta da parati"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:61
+#: ../src/about.cpp:61
 msgctxt "About|"
 msgid "Close"
 msgstr "Chiudere"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/about.cpp:62
+#: ../src/about.cpp:62
 msgctxt "About|"
 msgid "Visit website"
 msgstr "Visita il sito"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:87
+#: ../src/mainwindow.cpp:87
 msgctxt "MainWindow|"
 msgid ""
 "No connection to the internet.\n"
@@ -228,37 +228,37 @@ msgstr ""
 "Nessuna connessione a Internet.\n"
 "L'applicazione verrà chiusa."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:283
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:294
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:700
+#: ../src/mainwindow.cpp:285
+#: ../src/mainwindow.cpp:296
+#: ../src/mainwindow.cpp:702
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Errore"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:283
+#: ../src/mainwindow.cpp:285
 msgctxt "MainWindow|"
 msgid "No plugins found."
 msgstr "Nessun plugin trovato."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:289
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:695
+#: ../src/mainwindow.cpp:291
+#: ../src/mainwindow.cpp:697
 msgctxt "MainWindow|"
 msgid "done."
 msgstr "fatto."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:290
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:696
+#: ../src/mainwindow.cpp:292
+#: ../src/mainwindow.cpp:698
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr "Plugin usato: "
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:294
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:700
+#: ../src/mainwindow.cpp:296
+#: ../src/mainwindow.cpp:702
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr "Errore durante il caricamento del plugin."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:376
+#: ../src/mainwindow.cpp:378
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
@@ -267,138 +267,138 @@ msgstr ""
 "È stato rilevato un errore all'avvio dell'applicazione.\n"
 "L'applicazione verrà chiusa."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:410
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:762
+#: ../src/mainwindow.cpp:412
+#: ../src/mainwindow.cpp:764
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr "Nessuna connessione a Internet."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:410
+#: ../src/mainwindow.cpp:412
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr "Si prega di controllare la connessione internet."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:685
+#: ../src/mainwindow.cpp:687
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr "&Provider"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:723
+#: ../src/mainwindow.cpp:725
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr "&Informazioni su questa immagine e licenza"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:727
+#: ../src/mainwindow.cpp:729
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr "&Informazioni su questa immagine e copyright"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:734
+#: ../src/mainwindow.cpp:736
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr "&Scarica le immagini del passato"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:738
+#: ../src/mainwindow.cpp:740
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr "&Carica immagine memorizzata"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:741
+#: ../src/mainwindow.cpp:743
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr "&Impostazioni"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:744
+#: ../src/mainwindow.cpp:746
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr "&Circa"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:747
+#: ../src/mainwindow.cpp:749
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr "&Dimettersi"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:822
+#: ../src/mainwindow.cpp:824
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr "Descrizione: \n"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/mainwindow.cpp:1313
+#: ../src/mainwindow.cpp:1315
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr "Carica plugin..."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:142
+#: ../src/photobrowser.cpp:145
 msgctxt "PhotoBrowser|"
 msgid "Error"
 msgstr "Errore"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:142
+#: ../src/photobrowser.cpp:145
 msgctxt "PhotoBrowser|"
 msgid "Error while loading plugin."
 msgstr "Errore durante il caricamento del plugin."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:147
+#: ../src/photobrowser.cpp:150
 msgctxt "PhotoBrowser|"
 msgid "Past pictures of the day (Wikimedia Commons)"
 msgstr "Foto passate del giorno (Wikimedia Commons)"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:195
+#: ../src/photobrowser.cpp:198
 msgctxt "PhotoBrowser|"
 msgid "Get more information"
 msgstr "Richiedi maggiori informazioni"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:373
+#: ../src/photobrowser.cpp:376
 msgctxt "PhotoBrowser|"
 msgid "Details"
 msgstr "Dettagli"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:377
+#: ../src/photobrowser.cpp:380
 msgctxt "PhotoBrowser|"
 msgid "Please select a picture."
 msgstr "Seleziona un'immagine."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:385
+#: ../src/photobrowser.cpp:388
 msgctxt "PhotoBrowser|"
 msgid "Title: "
 msgstr "Titolo: "
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:392
+#: ../src/photobrowser.cpp:395
 msgctxt "PhotoBrowser|"
 msgid "Description: "
 msgstr "Descrizione: "
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:398
+#: ../src/photobrowser.cpp:401
 msgctxt "PhotoBrowser|"
 msgid "Picture size:"
 msgstr "Dimensioni immagine:"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:408
+#: ../src/photobrowser.cpp:411
 msgctxt "PhotoBrowser|"
 msgid "Preview:"
 msgstr "Anteprima:"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:487
+#: ../src/photobrowser.cpp:490
 msgctxt "PhotoBrowser|"
 msgid "The entered date must not be in the future."
 msgstr "La data inserita non deve essere futura."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:446
+#: ../src/photobrowser.cpp:449
 msgctxt "QProgressDialog|"
 msgid "Download in progress..."
 msgstr "Download in corso..."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/photobrowser.cpp:569
+#: ../src/photobrowser.cpp:572
 msgctxt "QProgressDialog|"
 msgid "Working in progress..."
 msgstr "In corso di lavorazione..."
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:136
+#: ../src/settingswindow.cpp:136
 msgctxt "SettingsWindow|"
 msgid "Save changes"
 msgstr "Salvare"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:136
+#: ../src/settingswindow.cpp:136
 msgctxt "SettingsWindow|"
 msgid ""
 "The application will be restart for the changes to take effect. Do you want "
@@ -407,12 +407,12 @@ msgstr ""
 "L'applicazione verrà riavviata per rendere effettive le modifiche. Vuoi "
 "salvare le modifiche?"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:149
+#: ../src/settingswindow.cpp:149
 msgctxt "SettingsWindow|"
 msgid "Select directory"
 msgstr "Seleziona directory"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/settingswindow.cpp:170
+#: ../src/settingswindow.cpp:170
 msgctxt "SettingsWindow|"
 msgid ""
 "This will reset all settings to the default settings. All existing "
@@ -421,11 +421,11 @@ msgstr ""
 "In questo modo verranno ripristinate tutte le impostazioni predefinite. "
 "Tutti gli sfondi esistenti verranno eliminati. Vuoi continuare?"
 
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:73
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:129
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:141
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:165
-#: /home/patrice/Backups/Backup_Projects/UltimateDailyWallpaper/published_versions/v3.0.0-4/Github/ultimatedailywallpaper-main/src/setwallpaper.cpp:201
+#: ../src/setwallpaper.cpp:73
+#: ../src/setwallpaper.cpp:133
+#: ../src/setwallpaper.cpp:145
+#: ../src/setwallpaper.cpp:169
+#: ../src/setwallpaper.cpp:205
 msgctxt "setWallpaper|"
 msgid "Error - Failed to set wallpaper."
 msgstr "Errore - Impossibile impostare lo sfondo."
