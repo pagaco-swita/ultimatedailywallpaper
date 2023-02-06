@@ -233,34 +233,14 @@ MainWindow::MainWindow(QWidget *parent)
             _applang="fi";
             change_applang(_applang);
         }
-        else if (_locale.contains("ja"))
-        {
-            _applang="ja";
-            change_applang(_applang);
-        }
         else if (_locale.contains("ko"))
         {
             _applang="ko";
             change_applang(_applang);
         }
-        else if (_locale.contains("pl"))
-        {
-            _applang="pl";
-            change_applang(_applang);
-        }
         else if (_locale.contains("ru"))
         {
             _applang="ru";
-            change_applang(_applang);
-        }
-        else if (_locale.contains("sr"))
-        {
-            _applang="sr";
-            change_applang(_applang);
-        }
-        else if (_locale.contains("tr"))
-        {
-            _applang="tr";
             change_applang(_applang);
         }
         else if (_locale.contains("uk"))
@@ -276,6 +256,11 @@ MainWindow::MainWindow(QWidget *parent)
         else if (_locale.contains("ko"))
         {
             _applang="ko";
+            change_applang(_applang);
+        }        
+        else if (_locale.contains("ca"))
+        {
+            _applang="ca";
             change_applang(_applang);
         }
     }
