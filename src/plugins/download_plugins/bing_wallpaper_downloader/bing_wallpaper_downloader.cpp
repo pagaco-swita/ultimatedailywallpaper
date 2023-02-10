@@ -102,7 +102,7 @@ void Bing_wallpaper_downloader::get_picture(bool downloadthumb,
             _picture_height=img.size().height();
             _picture_width=img.size().width();
             if(!(download_picture("https://www.bing.com"+_urlBase+"_"+"400x240.jpg", QDir::homePath()+"/.UltimateDailyWallpaper/thumbnails", true)==255))
-            {
+            {                
                 emit download_successful(_description,
                                          _copyright,
                                          provider(),
@@ -202,15 +202,21 @@ void Bing_wallpaper_downloader::parse(QString _lang)
               }
               element = element.nextSibling().toElement();
         }
+    }
 
-        filename.clear();
-        filename.append(_urlBase+"_UHD.jpg");
-        filename.remove("\x2F");
+    filename.clear();
+    filename.append(_urlBase+"_UHD.jpg");
+    filename.remove("\x2F");
 
-        thumbfilename.clear();
-        thumbfilename.append("_thumb_"+_urlBase+".jpg");
-        thumbfilename.remove("\x2F");
-    }   
+    thumbfilename.clear();
+    thumbfilename.append("_thumb_"+_urlBase+".jpg");
+    thumbfilename.remove("\x2F");
+
+    if(filename.contains("\x3F"))
+    {
+        filename.remove("\x3F");
+        thumbfilename.remove("\x3F");
+    }
 }
 
 bool Bing_wallpaper_downloader::request_download_json(QString _targeturl)

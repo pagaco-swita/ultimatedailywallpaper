@@ -15,7 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #---------------------------------------------------
 
-VERSION     = 0.0.2
+VERSION     = 0.0.3
 DEFINES     += PLUGIN_VERSION=\\\"$$VERSION\\\"
 DESTDIR     = ../../../../plugins
 QT          += widgets sql network xml concurrent

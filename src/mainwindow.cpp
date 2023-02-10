@@ -391,6 +391,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     request_dl_wallpaper();
     get_last_record(_selected_provider);
+    qDebug()<<_selected_provider;
 
     create_MenuHead(_db_rec_description, _db_rec_title, _db_rec_thumb_filename);
     create_Actions();

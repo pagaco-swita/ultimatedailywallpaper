@@ -69,7 +69,7 @@ void Wikimedia_Commons_potd::get_picture(bool downloadthumb,
 
 QString Wikimedia_Commons_potd::pluginname()
 {
-    return "Wikimedia Commons - Picture of the day Downloader";
+    return "Wikimedia Commons picture of the day Downloader";
 }
 
 QString Wikimedia_Commons_potd::plugininfo()
@@ -89,7 +89,7 @@ QString Wikimedia_Commons_potd::plugininfo()
 
 QString Wikimedia_Commons_potd::provider()
 {
-    return tr("Wikimedia Commons - Picture of the day");
+    return tr("Wikimedia Commons");
 }
 
 Wikimedia_Commons_potd::~Wikimedia_Commons_potd()
@@ -149,9 +149,19 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 
         _wpc_potd_description=_wpc_potd_description.trimmed();
 
+        if(picture_filename.contains("\x3F"))
+        {
+            picture_filename.remove("\x3F");
+        }
+
+        if(picture_filename.contains("\x20"))
+        {
+            picture_filename.remove("\x20");
+        }
+
         if(!(download_picture(_thumburl, _picturedir, picture_filename)==255))
         {           
-            emit download_successful(_wpc_potd_description, "", "Wikimedia Commons - Picture of the day", "Wikimedia Commons: Picture of the day",
+            emit download_successful(_wpc_potd_description, "", "Wikimedia Commons", "Wikimedia Commons: Picture of the day",
                                      picture_filename, _description_url,
                                      picture_filename, _picture_height, _picture_width, _pageid,
                                      true, _year+_month+_day);
@@ -169,6 +179,16 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 
                 _wpc_potd_description=_wpc_potd_description.trimmed();
 
+                if(picture_filename.contains("\x3F"))
+                {
+                    picture_filename.remove("\x3F");
+                }
+
+                if(picture_filename.contains("\x20"))
+                {
+                    picture_filename.remove("\x20");
+                }
+
                 if(!(download_picture(picture_download_url, _picturedir, picture_filename)==255))
                 {
                     if(thumbfilename.contains("\x5C"))
@@ -185,7 +205,7 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
                     {
                         thumbfilename.clear();
                         thumbfilename=picture_filename;
-                        emit download_successful(_wpc_potd_description, "", "Wikimedia Commons - Picture of the day", "Wikimedia Commons: Picture of the day",
+                        emit download_successful(_wpc_potd_description, "", "Wikimedia Commons", "Wikimedia Commons: Picture of the day",
                                                  picture_filename, _description_url,
                                                  thumbfilename, _picture_height, _picture_width, _pageid,
                                                  false, _year+_month+_day);
