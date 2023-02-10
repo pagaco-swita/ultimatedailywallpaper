@@ -10,3 +10,7 @@ override_dh_auto_install:
 	mkdir qm
 	mv language/*.qm qm
 	dh_auto_install
+
+override_dh_auto_clean:
+	rm -r qm build plugins
+	dh_auto_clean
