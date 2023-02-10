@@ -6,7 +6,7 @@ UltimateDailyWallpaper is a simple utility to use the daily picture of a provide
 ## Features of the application: <br />
  * Allows download the daily picture of Wikimedia Commons (POTD) in a high quality
  * Allows download "pictures of the day" from past days of Wikimedia Commons
- * Allows download the daily wallpaper of Bing from peapix.com in a high quality
+ * Allows download the daily wallpaper of Bing in a high quality
  * Allows a simple integration of external plugins to download a daily picture of any provider
  * Supports the most of desktop environments to provide automatically changing wallpaper
  * Allows automatically changing wallpaper on lockscreen of KDE Plasma 5 and GNOME
