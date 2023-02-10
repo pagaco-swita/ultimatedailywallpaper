@@ -29,7 +29,6 @@
 
 setWallpaper::setWallpaper()
 {
-
 }
 
 void setWallpaper::_set_wallpaper(QString _wallpaperfile, int _Parameter, int _change_lockscreen_wallpaper)
