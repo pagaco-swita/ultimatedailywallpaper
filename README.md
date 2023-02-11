@@ -12,7 +12,6 @@ UltimateDailyWallpaper is a simple utility to use the daily picture of a provide
  * Allows automatically changing wallpaper on lockscreen of KDE Plasma 5 and GNOME
 
 ## Requierment: <br />
-* Qt 5.14 (or higher) - Download Qt here: https://www.qt.io/download
 * Recomment: gnome-shell-extension-appindicator - support for legacy tray icons on GNOME 3 -> https://github.com/ubuntu/gnome-shell-extension-appindicator
 * Recomment: gnome-shell-extension-top-icons-plus - https://github.com/phocean/TopIcons-plus
 
