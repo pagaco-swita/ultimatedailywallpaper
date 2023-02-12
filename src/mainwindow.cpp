@@ -592,7 +592,7 @@ void MainWindow::create_MenuHead(QString description, QString title, QString thu
 
     _labelTitle->setText(title);
 
-    if(!(_selected_provider=="Wikimedia Commons - Picture of the day"))
+    if(!(_selected_provider=="Wikimedia Commons"))
     {
         if(!(_copyright.isEmpty()))
         {
@@ -643,7 +643,7 @@ void MainWindow::create_Menu()
 
     basemenu->addAction(moreinformation);
 
-    if(_selected_provider=="Wikimedia Commons - Picture of the day")
+    if(_selected_provider=="Wikimedia Commons")
     {
         basemenu->addAction(wmc_potd_morepictures);
     }
@@ -720,7 +720,7 @@ void MainWindow::create_Actions()
     connect(getnewpicture, &QAction::triggered, this, &MainWindow::mnu_getnewpicture);
     */
 
-    if(_selected_provider=="Wikimedia Commons - Picture of the day")
+    if(_selected_provider=="Wikimedia Commons")
     {
         moreinformation = new QAction(tr("&About this picture and license"), this);
     }
@@ -731,7 +731,7 @@ void MainWindow::create_Actions()
 
     connect(moreinformation, &QAction::triggered, this, &MainWindow::mnu_moreinformation);
 
-    if(_selected_provider=="Wikimedia Commons - Picture of the day")
+    if(_selected_provider=="Wikimedia Commons")
     {
         wmc_potd_morepictures = new QAction(tr("&Download past pictures"), this);
         connect(wmc_potd_morepictures, &QAction::triggered, this, &MainWindow::wikimedia_commons_more_pictures);
