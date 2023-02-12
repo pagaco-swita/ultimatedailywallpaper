@@ -424,8 +424,11 @@ int Wikimedia_Commons_potd::download_picture(QString _dlurl, QString dlpath, QSt
     {
         QImage img(dlpath+"/"+filename);
 
-        _picture_height=img.size().height();
-        _picture_width=img.size().width();
+        if(img.size().width()>1000)
+        {
+            _picture_height=img.size().height();
+            _picture_width=img.size().width();
+        }
     }
     else
     {
