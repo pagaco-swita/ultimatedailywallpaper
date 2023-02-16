@@ -149,15 +149,7 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 
         _wpc_potd_description=_wpc_potd_description.trimmed();
 
-        if(picture_filename.contains("\x3F"))
-        {
-            picture_filename.remove("\x3F");
-        }
-
-        if(picture_filename.contains("\x20"))
-        {
-            picture_filename.remove("\x20");
-        }
+        picture_filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 
         if(!(download_picture(_thumburl, _picturedir, picture_filename)==255))
         {           
@@ -179,27 +171,12 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 
                 _wpc_potd_description=_wpc_potd_description.trimmed();
 
-                if(picture_filename.contains("\x3F"))
-                {
-                    picture_filename.remove("\x3F");
-                }
+                picture_filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 
-                if(picture_filename.contains("\x20"))
-                {
-                    picture_filename.remove("\x20");
-                }
 
                 if(!(download_picture(picture_download_url, _picturedir, picture_filename)==255))
                 {
-                    if(thumbfilename.contains("\x5C"))
-                    {
-                        thumbfilename.remove("\x5C");
-                    }
-
-                    if(thumbfilename.contains("\'\\'\'"))
-                    {
-                        thumbfilename.replace("\'\\'\'", "\'");
-                    }
+                    thumbfilename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 
                     if(!(download_picture(_thumburl, QDir::homePath()+"/.UltimateDailyWallpaper/thumbnails", picture_filename)==255))
                     {

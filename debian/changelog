@@ -1,3 +1,9 @@
+ultimatedailywallpaper (3.1.1-1) experimental; urgency=medium
+
+  * Remove special characters from picture-filenames
+
+ -- Patrice Coni <patrice.coni-dev@yandex.com>  Thu, 16 Feb 2023 18:08:56 +0100
+
 ultimatedailywallpaper (3.1.0-1) experimental; urgency=medium
 
   * Initial release. (Closes: #1031168)

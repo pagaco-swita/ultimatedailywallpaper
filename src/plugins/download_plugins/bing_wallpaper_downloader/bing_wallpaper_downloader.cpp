@@ -206,17 +206,11 @@ void Bing_wallpaper_downloader::parse(QString _lang)
 
     filename.clear();
     filename.append(_urlBase+"_UHD.jpg");
-    filename.remove("\x2F");
+    filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 
     thumbfilename.clear();
     thumbfilename.append("_thumb_"+_urlBase+".jpg");
-    thumbfilename.remove("\x2F");
-
-    if(filename.contains("\x3F"))
-    {
-        filename.remove("\x3F");
-        thumbfilename.remove("\x3F");
-    }
+    thumbfilename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 }
 
 bool Bing_wallpaper_downloader::request_download_json(QString _targeturl)
