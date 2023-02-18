@@ -195,7 +195,7 @@ void setWallpaper::_set_wallpaper_script(QString _scriptfile, QString content)
         if (set_wallpaper_plasma.open(QIODevice::Append))
         {
             QTextStream stream(&set_wallpaper_plasma);
-            stream <<content<<endl;
+            stream <<content<<Qt::endl;
         }
     }
 

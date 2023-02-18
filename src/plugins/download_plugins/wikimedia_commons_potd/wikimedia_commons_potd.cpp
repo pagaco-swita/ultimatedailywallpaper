@@ -27,7 +27,13 @@
 #include <QUrl>
 #include <QProcess>
 #include <QMetaObject>
-#include <QDesktopWidget>
+#if QT_VERSION >= 0x060000
+    #include <QWidget>
+    #include <QScreen>
+    #include <QRegularExpression>
+#else
+    #include <QDesktopWidget>
+#endif
 #include <QSqlQuery>
 #include <QSqlError>
 
@@ -149,7 +155,12 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 
         _wpc_potd_description=_wpc_potd_description.trimmed();
 
+#if QT_VERSION >= 0x060000
+        picture_filename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#else
         picture_filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#endif
+        picture_filename.append(".jpg")));
 
         if(!(download_picture(_thumburl, _picturedir, picture_filename)==255))
         {           
@@ -171,12 +182,21 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 
                 _wpc_potd_description=_wpc_potd_description.trimmed();
 
+#if QT_VERSION >= 0x060000
+                picture_filename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#else
                 picture_filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
-
-
+#endif
+                picture_filename.append(".jpg")));
+                
                 if(!(download_picture(picture_download_url, _picturedir, picture_filename)==255))
                 {
+#if QT_VERSION >= 0x060000
+                    thumbfilename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#else
                     thumbfilename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#endif
+                    thumbfilename.append(".jpg")));
 
                     if(!(download_picture(_thumburl, QDir::homePath()+"/.UltimateDailyWallpaper/thumbnails", picture_filename)==255))
                     {
@@ -210,7 +230,7 @@ void Wikimedia_Commons_potd::get_values()
             while(!xmlcontent_reader.atEnd()) {
                 xmlcontent_reader.readNext();
                 if (xmlcontent_reader.isStartElement()) {
-                    if (xmlcontent_reader.name() == "page")
+                    if (xmlcontent_reader.name() == QLatin1String("page"))
                     {
                         foreach(const QXmlStreamAttribute &url_attr, xmlcontent_reader.attributes()) {
                             if (url_attr.name().toString() == QLatin1String("pageid")) {
@@ -218,7 +238,7 @@ void Wikimedia_Commons_potd::get_values()
                             }
                         }
                     }
-                    if (xmlcontent_reader.name() == "ii")
+                    if (xmlcontent_reader.name() == QLatin1String("ii"))
                     {
                         foreach(const QXmlStreamAttribute &url_attr, xmlcontent_reader.attributes()) {
                             if (url_attr.name().toString() == QLatin1String("url")) {
@@ -248,23 +268,32 @@ void Wikimedia_Commons_potd::get_values()
                 xmlcontent_reader.readNext();
                 if (xmlcontent_reader.isStartElement())
                 {
-                    if (xmlcontent_reader.name() == "Artist")
+                    if (xmlcontent_reader.name() == QLatin1String("Artist"))
                     {
                         foreach(const QXmlStreamAttribute &url_attr, xmlcontent_reader.attributes()) {
                             if (url_attr.name().toString() == QLatin1String("value"))
                             {
                                 _author=url_attr.value().toString();
+#if QT_VERSION >= 0x060000
+                                _author.remove(QRegularExpression("<[^>]*>"));
+#else
                                 _author.remove(QRegExp("<[^>]*>"));
+#endif
                             }
                         }
                     }
-                    if (xmlcontent_reader.name() == "ImageDescription")
+                    if (xmlcontent_reader.name() == QLatin1String("ImageDescription"))
                     {
                         foreach(const QXmlStreamAttribute &url_attr, xmlcontent_reader.attributes()) {
                             if (url_attr.name().toString() == QLatin1String("value"))
                             {
                                 _wpc_potd_description_orig=url_attr.value().toString();
+#if QT_VERSION >= 0x060000
+                                _wpc_potd_description_orig.remove(QRegularExpression("<[^>]*>"));
+#else
                                 _wpc_potd_description_orig.remove(QRegExp("<[^>]*>"));
+#endif
+
                                 if(_wpc_potd_description_orig.contains("."))
                                 {
                                     QStringList parts=_wpc_potd_description_orig.split(".");

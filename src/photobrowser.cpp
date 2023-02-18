@@ -40,7 +40,12 @@
 #include <QDate>
 #include <QMessageBox>
 #include <QProgressDialog>
-#include <QDesktopWidget>
+#if QT_VERSION >= 0x060000
+    #include <QWidget>
+    #include <QScreen>
+#else
+    #include <QDesktopWidget>
+#endif
 #include <QDebug>
 
 PhotoBrowser::PhotoBrowser(QWidget *parent) :
@@ -451,7 +456,13 @@ void PhotoBrowser::download_thumb(int days)
     progressdialog.setCancelButton(0);
     progressdialog.setWindowModality(Qt::WindowModal);
     progressdialog.adjustSize();
+
+#if QT_VERSION >= 0x060000
+    progressdialog.move(screen()->geometry().center() - frameGeometry().center());
+#else
     progressdialog.move(QApplication::desktop()->screen()->rect().center() - progressdialog.rect().center());
+#endif
+
     progressdialog.show();
 
     QDate selected_date=ui->calendarWidget->selectedDate();
@@ -573,7 +584,13 @@ void PhotoBrowser::download_and_set()
     progressdialog.setWindowFlags(Qt::Dialog | Qt::CustomizeWindowHint | Qt::WindowTitleHint);
     progressdialog.setCancelButton(0);
     progressdialog.adjustSize();
+
+#if QT_VERSION >= 0x060000
+    progressdialog.move(screen()->geometry().center() - frameGeometry().center());
+#else
     progressdialog.move(QApplication::desktop()->screen()->rect().center() - progressdialog.rect().center());
+#endif
+
     progressdialog.setWindowModality(Qt::WindowModal);
     progressdialog.show();
 

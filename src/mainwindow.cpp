@@ -31,7 +31,12 @@
 #include <QProcess>
 #include <QThread>
 #include <QDate>
-#include <QDesktopWidget>
+#if QT_VERSION >= 0x060000
+    #include <QWidget>
+    #include <QScreen>
+#else
+    #include <QDesktopWidget>
+#endif
 #include <QPluginLoader>
 #include <QFileInfo>
 #include <QtGlobal>
@@ -359,7 +364,7 @@ MainWindow::MainWindow(QWidget *parent)
             if (autorun_file.open(QIODevice::Append))
             {
                 QTextStream stream(&autorun_file);
-                stream <<_autorun_file_content<<endl;
+                stream <<_autorun_file_content<<Qt::endl;
             }
         }
     }
@@ -792,7 +797,13 @@ void MainWindow::basemnu_settings()
 {
     SettingsWindow _sett_win;
     _sett_win.adjustSize();
+
+#if QT_VERSION >= 0x060000
+    _sett_win.move(screen()->geometry().center() - frameGeometry().center());
+#else
     _sett_win.move(QApplication::desktop()->screen()->rect().center() - _sett_win.rect().center());
+#endif
+
     _sett_win.setModal(true);
     _sett_win.exec();
 }
@@ -802,7 +813,13 @@ void MainWindow::basemnu_aboutapp()
     About _about_win;
     _about_win.adjustSize();
     _about_win.setMinimumSize(535,500);
-    _about_win.move(QApplication::desktop()->screen()->rect().center() - _about_win.rect().center());
+
+#if QT_VERSION >= 0x060000
+    _about_win.move(screen()->geometry().center() - frameGeometry().center());
+#else
+    _about_win.move(QApplication::desktop()->screen()->rect().center() - _sett_win.rect().center());
+#endif
+
     _about_win.set_plugin_text(basicinterface->plugininfo());
     _about_win.setModal(true);
     _about_win.exec();
@@ -1163,7 +1180,13 @@ void MainWindow::show_photobrowser(int mode)
 
     PhotoBrowser _photobrowser;
     _photobrowser.adjustSize();
+
+#if QT_VERSION >= 0x060000
+    _photobrowser.move(screen()->geometry().center() - frameGeometry().center());
+#else
     _photobrowser.move(QApplication::desktop()->screen()->rect().center() - _photobrowser.rect().center());
+#endif
+
     _photobrowser.init(mode);
     _photobrowser.setModal(true);
     _photobrowser.exec();

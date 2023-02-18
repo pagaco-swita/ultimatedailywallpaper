@@ -205,12 +205,22 @@ void Bing_wallpaper_downloader::parse(QString _lang)
     }
 
     filename.clear();
-    filename.append(_urlBase+"_UHD.jpg");
+    filename.append(_urlBase);
+#if QT_VERSION >= 0x060000
+    filename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#else
     filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#endif
+    filename.append("_UHD.jpg");
 
     thumbfilename.clear();
-    thumbfilename.append("_thumb_"+_urlBase+".jpg");
+    thumbfilename.append("thumb"+_urlBase+);
+#if QT_VERSION >= 0x060000
+    thumbfilename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#else
     thumbfilename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#endif
+    thumbfilename.append(".jpg");
 }
 
 bool Bing_wallpaper_downloader::request_download_json(QString _targeturl)
