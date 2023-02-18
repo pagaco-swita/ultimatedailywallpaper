@@ -219,7 +219,7 @@ msgctxt "About|"
 msgid "Visit website"
 msgstr "Visite el sitio web"
 
-#: ../src/mainwindow.cpp:87
+#: ../src/mainwindow.cpp:92
 msgctxt "MainWindow|"
 msgid ""
 "No connection to the internet.\n"
@@ -228,37 +228,37 @@ msgstr ""
 "No hay conexión a Internet.\n"
 "La aplicación se cerrará."
 
-#: ../src/mainwindow.cpp:285
-#: ../src/mainwindow.cpp:296
-#: ../src/mainwindow.cpp:702
+#: ../src/mainwindow.cpp:290
+#: ../src/mainwindow.cpp:301
+#: ../src/mainwindow.cpp:707
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Error"
 
-#: ../src/mainwindow.cpp:285
+#: ../src/mainwindow.cpp:290
 msgctxt "MainWindow|"
 msgid "No plugins found."
 msgstr "No se han encontrado plugins."
 
-#: ../src/mainwindow.cpp:291
-#: ../src/mainwindow.cpp:697
+#: ../src/mainwindow.cpp:296
+#: ../src/mainwindow.cpp:702
 msgctxt "MainWindow|"
 msgid "done."
 msgstr "hecho."
 
-#: ../src/mainwindow.cpp:292
-#: ../src/mainwindow.cpp:698
+#: ../src/mainwindow.cpp:297
+#: ../src/mainwindow.cpp:703
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr "Plugin utilizado: "
 
-#: ../src/mainwindow.cpp:296
-#: ../src/mainwindow.cpp:702
+#: ../src/mainwindow.cpp:301
+#: ../src/mainwindow.cpp:707
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr "Error al cargar el plugin."
 
-#: ../src/mainwindow.cpp:378
+#: ../src/mainwindow.cpp:383
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
@@ -267,128 +267,128 @@ msgstr ""
 "Se detectó un error al iniciar la aplicación.\n"
 "La aplicación se cerrará."
 
-#: ../src/mainwindow.cpp:412
-#: ../src/mainwindow.cpp:764
+#: ../src/mainwindow.cpp:417
+#: ../src/mainwindow.cpp:769
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr "No hay conexión a Internet."
 
-#: ../src/mainwindow.cpp:412
+#: ../src/mainwindow.cpp:417
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr "Por favor, compruebe su conexión a Internet."
 
-#: ../src/mainwindow.cpp:687
+#: ../src/mainwindow.cpp:692
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr "&Proveedor"
 
-#: ../src/mainwindow.cpp:725
+#: ../src/mainwindow.cpp:730
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr "&Acerca de esta imagen y licencia"
 
-#: ../src/mainwindow.cpp:729
+#: ../src/mainwindow.cpp:734
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr "&Acerca de esta imagen y derechos de autor"
 
-#: ../src/mainwindow.cpp:736
+#: ../src/mainwindow.cpp:741
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr "&Descargar fotos pasadas"
 
-#: ../src/mainwindow.cpp:740
+#: ../src/mainwindow.cpp:745
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr "&Cargar imagen almacenada"
 
-#: ../src/mainwindow.cpp:743
+#: ../src/mainwindow.cpp:748
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr "&Configuración"
 
-#: ../src/mainwindow.cpp:746
+#: ../src/mainwindow.cpp:751
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr "&Acerca de"
 
-#: ../src/mainwindow.cpp:749
+#: ../src/mainwindow.cpp:754
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr "&Salir"
 
-#: ../src/mainwindow.cpp:824
+#: ../src/mainwindow.cpp:841
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr "Descripción: \n"
 
-#: ../src/mainwindow.cpp:1315
+#: ../src/mainwindow.cpp:1338
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr "Cargar plugin..."
 
-#: ../src/photobrowser.cpp:145
+#: ../src/photobrowser.cpp:150
 msgctxt "PhotoBrowser|"
 msgid "Error"
 msgstr "Error"
 
-#: ../src/photobrowser.cpp:145
+#: ../src/photobrowser.cpp:150
 msgctxt "PhotoBrowser|"
 msgid "Error while loading plugin."
 msgstr "Error al cargar el plugin."
 
-#: ../src/photobrowser.cpp:150
+#: ../src/photobrowser.cpp:155
 msgctxt "PhotoBrowser|"
 msgid "Past pictures of the day (Wikimedia Commons)"
 msgstr "Fotos pasadas del día (Wikimedia Commons)"
 
-#: ../src/photobrowser.cpp:198
+#: ../src/photobrowser.cpp:203
 msgctxt "PhotoBrowser|"
 msgid "Get more information"
 msgstr "Obtener más información"
 
-#: ../src/photobrowser.cpp:376
+#: ../src/photobrowser.cpp:381
 msgctxt "PhotoBrowser|"
 msgid "Details"
 msgstr "Detalles"
 
-#: ../src/photobrowser.cpp:380
+#: ../src/photobrowser.cpp:385
 msgctxt "PhotoBrowser|"
 msgid "Please select a picture."
 msgstr "Seleccione una imagen."
 
-#: ../src/photobrowser.cpp:388
+#: ../src/photobrowser.cpp:393
 msgctxt "PhotoBrowser|"
 msgid "Title: "
 msgstr "Título: "
 
-#: ../src/photobrowser.cpp:395
+#: ../src/photobrowser.cpp:400
 msgctxt "PhotoBrowser|"
 msgid "Description: "
 msgstr "Descripción: "
 
-#: ../src/photobrowser.cpp:401
+#: ../src/photobrowser.cpp:406
 msgctxt "PhotoBrowser|"
 msgid "Picture size:"
 msgstr "Tamaño de la imagen:"
 
-#: ../src/photobrowser.cpp:411
+#: ../src/photobrowser.cpp:416
 msgctxt "PhotoBrowser|"
 msgid "Preview:"
 msgstr "Vista previa:"
 
-#: ../src/photobrowser.cpp:490
+#: ../src/photobrowser.cpp:501
 msgctxt "PhotoBrowser|"
 msgid "The entered date must not be in the future."
 msgstr "La fecha introducida no debe ser en el futuro."
 
-#: ../src/photobrowser.cpp:449
+#: ../src/photobrowser.cpp:454
 msgctxt "QProgressDialog|"
 msgid "Download in progress..."
 msgstr "Descarga en curso..."
 
-#: ../src/photobrowser.cpp:572
+#: ../src/photobrowser.cpp:583
 msgctxt "QProgressDialog|"
 msgid "Working in progress..."
 msgstr "Trabajando en progreso..."
@@ -422,11 +422,11 @@ msgstr ""
 "predeterminada. Se eliminarán todos los fondos de pantalla existentes. "
 "¿Quieres continuar?"
 
-#: ../src/setwallpaper.cpp:73
-#: ../src/setwallpaper.cpp:133
-#: ../src/setwallpaper.cpp:145
-#: ../src/setwallpaper.cpp:169
-#: ../src/setwallpaper.cpp:205
+#: ../src/setwallpaper.cpp:72
+#: ../src/setwallpaper.cpp:132
+#: ../src/setwallpaper.cpp:144
+#: ../src/setwallpaper.cpp:168
+#: ../src/setwallpaper.cpp:204
 msgctxt "setWallpaper|"
 msgid "Error - Failed to set wallpaper."
 msgstr "Error al establecer el fondo de pantalla."

@@ -1,3 +1,9 @@
+ultimatedailywallpaper (3.1.2-1) experimental; urgency=medium
+
+  * Fixes for Qt6 support
+
+ -- Patrice Coni <patrice.coni-dev@yandex.com>  Sat, 18 Feb 2023 15:43:52 +0100
+
 ultimatedailywallpaper (3.1.1-1) experimental; urgency=medium
 
   * Remove special characters from picture-filenames
