@@ -214,7 +214,7 @@ void Bing_wallpaper_downloader::parse(QString _lang)
     filename.append("_UHD.jpg");
 
     thumbfilename.clear();
-    thumbfilename.append("thumb"+_urlBase+);
+    thumbfilename.append("thumb"+_urlBase);
 #if QT_VERSION >= 0x060000
     thumbfilename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 #else

@@ -160,7 +160,7 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 #else
         picture_filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 #endif
-        picture_filename.append(".jpg")));
+        picture_filename.append(".jpg");
 
         if(!(download_picture(_thumburl, _picturedir, picture_filename)==255))
         {           
@@ -187,7 +187,7 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 #else
                 picture_filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 #endif
-                picture_filename.append(".jpg")));
+                picture_filename.append(".jpg");
                 
                 if(!(download_picture(picture_download_url, _picturedir, picture_filename)==255))
                 {
@@ -196,7 +196,7 @@ void Wikimedia_Commons_potd::get_wikimedia_commons_potd(bool downloadthumb, QStr
 #else
                     thumbfilename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
 #endif
-                    thumbfilename.append(".jpg")));
+                    thumbfilename.append(".jpg");
 
                     if(!(download_picture(_thumburl, QDir::homePath()+"/.UltimateDailyWallpaper/thumbnails", picture_filename)==255))
                     {
