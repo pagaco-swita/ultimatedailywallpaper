@@ -817,7 +817,7 @@ void MainWindow::basemnu_aboutapp()
 #if QT_VERSION >= 0x060000
     _about_win.move(screen()->geometry().center() - frameGeometry().center());
 #else
-    _about_win.move(QApplication::desktop()->screen()->rect().center() - _sett_win.rect().center());
+    _about_win.move(QApplication::desktop()->screen()->rect().center() - _about_win.rect().center());
 #endif
 
     _about_win.set_plugin_text(basicinterface->plugininfo());
