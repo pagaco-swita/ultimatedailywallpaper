@@ -25,7 +25,6 @@ $ sudo apt-get install libkf5filemetadata-dev locales qt5-qmake-bin libkf5coread
 
 $ qmake (or qmake -qt5)
 $ make -f Makefile
-
 ``` 
 
 ## Screenshots: <br />
