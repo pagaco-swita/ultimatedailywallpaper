@@ -23,9 +23,9 @@ UltimateDailyWallpaper is a simple utility to use the daily picture of a provide
 ```
 $ sudo apt-get install libkf5filemetadata-dev locales qt5-qmake-bin libkf5coreaddons-dev libkf5config-dev qtbase5-dev tzdata qtchooser qt5-qmake libqt5opengl5-dev baloo-kf5-dev qtbase5-dev-tools sensible-utils curl libqt5gui5 libqt5widgets5 libqt5core5a qttools5-dev
 
-$ cd ./src
 $ qmake (or qmake -qt5)
 $ make -f Makefile
+
 ``` 
 
 ## Screenshots: <br />
