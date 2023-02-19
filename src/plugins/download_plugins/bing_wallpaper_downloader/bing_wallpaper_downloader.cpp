@@ -37,10 +37,6 @@ Bing_wallpaper_downloader::Bing_wallpaper_downloader()
 {
 }
 
-Bing_wallpaper_downloader::~Bing_wallpaper_downloader()
-{
-}
-
 bool Bing_wallpaper_downloader::SetExtendedFunctionInterface()
 {
     return false;
@@ -59,27 +55,6 @@ bool Bing_wallpaper_downloader::SetMenuInterface()
 bool Bing_wallpaper_downloader::SetSubMenuInterface()
 {
     return false;
-}
-
-QString Bing_wallpaper_downloader::SubMenuTitle()
-{
-}
-
-QStringList Bing_wallpaper_downloader::SubMenuTriggers()
-{
-}
-
-QStringList Bing_wallpaper_downloader::SubMenuEmitStrings()
-{
-}
-
-void Bing_wallpaper_downloader::SubMenuFunction(QString anything)
-{
-    QSettings _settings(QDir::homePath()+"/.UltimateDailyWallpaper/settings.conf", QSettings::IniFormat);
-    _settings.beginGroup("PROVIDER_SETTINGS");
-    _settings.setValue("lang", anything);
-    _settings.endGroup();
-    _settings.sync();
 }
 
 void Bing_wallpaper_downloader::get_picture(bool downloadthumb,
