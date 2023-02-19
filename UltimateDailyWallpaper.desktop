@@ -4,6 +4,6 @@ Exec=/usr/bin/UltimateDailyWallpaper
 Name=UltimateDailyWallpaper
 Comment=A wallpaper changer
 Terminal=false
-Keywords=background;wallpaper;
 Icon=/usr/share/pixmaps/ultimatedesktopwallpaper_icon.png
 Categories=Utility;DesktopUtility;
+StartupNotify=false
