@@ -1,7 +1,7 @@
 [Desktop Entry]
-Type=Application
-Exec=/usr/bin/UltimateDailyWallpaper
 Name=UltimateDailyWallpaper
+Exec=UltimateDailyWallpaper
+Type=Application
 Comment=A wallpaper changer
 Terminal=false
 Icon=/usr/share/pixmaps/ultimatedesktopwallpaper_icon.png
