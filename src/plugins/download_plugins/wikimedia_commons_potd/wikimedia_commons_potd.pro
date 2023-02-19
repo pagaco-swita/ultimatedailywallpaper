@@ -20,7 +20,7 @@ DEFINES     += PLUGIN_VERSION=\\\"$$VERSION\\\"
 DESTDIR     = ../../../../plugins
 QT          += widgets sql network xml concurrent
 CONFIG      += c++17 plugin
-TARGET      = wikimedia_commons_potd_$$VERSION
+TARGET      = wikimedia-commons-potd-$$VERSION
 TEMPLATE    = lib
 DEFINES     += WIKIMEDIA_COMMONS_POTD_LIBRARY
 

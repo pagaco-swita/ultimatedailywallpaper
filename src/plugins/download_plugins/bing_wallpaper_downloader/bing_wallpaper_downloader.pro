@@ -23,7 +23,7 @@ TEMPLATE    = lib
 
 DEFINES += BING_WALLPAPER_DOWNLOADER_LIBRARY
 CONFIG      += c++17 plugin
-TARGET      = bing_wallpaper_downloader_$$VERSION
+TARGET      = bing-wallpaper-downloader-$$VERSION
 
 INCLUDEPATH += ../../../../src
 
