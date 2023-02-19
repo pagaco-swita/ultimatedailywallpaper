@@ -2,7 +2,7 @@
 Type=Application
 Exec=/usr/bin/UltimateDailyWallpaper
 Name=UltimateDailyWallpaper
-Comment=Wallpaper changer and downloader
+Comment=Wallpaper changer
 Terminal=false
 Keywords=background;wallpaper;
 Icon=/usr/share/pixmaps/ultimatedesktopwallpaper_icon.png
