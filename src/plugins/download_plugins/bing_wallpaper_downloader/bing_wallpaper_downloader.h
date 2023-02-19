@@ -29,11 +29,12 @@
 #include "interfaces.h"
 
 class Bing_wallpaper_downloader : public QObject,
-                                public BasicInterface
+                                public BasicInterface,
+                                public SubMenuInterface
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID "UltimateDailyWallpaper.BasicInterface" FILE "bing_wallpaper_downloader.json")
-    Q_INTERFACES(BasicInterface)
+    Q_INTERFACES(BasicInterface SubMenuInterface)
 
 public:
     Bing_wallpaper_downloader();
@@ -55,6 +56,14 @@ public:
     QString provider() override;
     QString pluginname() override;
     QString plugininfo() override;
+
+    // SubMenuInterface
+    QString SubMenuTitle() override;
+    QStringList SubMenuTriggers() override;
+    QStringList SubMenuEmitStrings() override;
+
+public slots:
+    virtual void SubMenuFunction(QString anything) override;
 
 signals:
     void download_successful(QString _description,
