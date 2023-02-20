@@ -37,10 +37,6 @@ Bing_wallpaper_downloader::Bing_wallpaper_downloader()
 {
 }
 
-Bing_wallpaper_downloader::~Bing_wallpaper_downloader()
-{
-}
-
 bool Bing_wallpaper_downloader::SetExtendedFunctionInterface()
 {
     return false;
@@ -59,30 +55,6 @@ bool Bing_wallpaper_downloader::SetMenuInterface()
 bool Bing_wallpaper_downloader::SetSubMenuInterface()
 {
     return false;
-}
-
-QString Bing_wallpaper_downloader::SubMenuTitle()
-{
-    return "";
-}
-
-QStringList Bing_wallpaper_downloader::SubMenuTriggers()
-{
-    return {tr("")};
-}
-
-QStringList Bing_wallpaper_downloader::SubMenuEmitStrings()
-{
-    return {tr("")};
-}
-
-void Bing_wallpaper_downloader::SubMenuFunction(QString anything)
-{
-    QSettings _settings(QDir::homePath()+"/.UltimateDailyWallpaper/settings.conf", QSettings::IniFormat);
-    _settings.beginGroup("PROVIDER_SETTINGS");
-    _settings.setValue("lang", anything);
-    _settings.endGroup();
-    _settings.sync();
 }
 
 void Bing_wallpaper_downloader::get_picture(bool downloadthumb,
@@ -132,11 +104,6 @@ QString Bing_wallpaper_downloader::pluginname()
     return tr("Daily Bing wallpaper Downloader");
 }
 
-QString Bing_wallpaper_downloader::provider()
-{
-    return tr("Bing");
-}
-
 QString Bing_wallpaper_downloader::plugininfo()
 {
     QString info;
@@ -150,6 +117,19 @@ QString Bing_wallpaper_downloader::plugininfo()
     info.append(PLUGIN_VERSION);
 
     return info;
+}
+
+QString Bing_wallpaper_downloader::provider()
+{
+    return tr("Bing");
+}
+
+Bing_wallpaper_downloader::~Bing_wallpaper_downloader()
+{
+    if (reply != 0)
+    {
+        delete reply;
+    }
 }
 
 void Bing_wallpaper_downloader::parse(QString _lang)
@@ -208,12 +188,22 @@ void Bing_wallpaper_downloader::parse(QString _lang)
     }
 
     filename.clear();
-    filename.append(_urlBase+"_UHD.jpg");
+    filename.append(_urlBase);
+#if QT_VERSION >= 0x060000
+    filename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#else
     filename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#endif
+    filename.append("_UHD.jpg");
 
     thumbfilename.clear();
-    thumbfilename.append("_thumb_"+_urlBase+".jpg");
+    thumbfilename.append("thumb"+_urlBase);
+#if QT_VERSION >= 0x060000
+    thumbfilename.remove(QRegularExpression(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#else
     thumbfilename.remove(QRegExp(QString::fromUtf8("[-`~!@#$%^&*()_â€”+=|:;<>Â«Â»,.?/{}\'\"\\\[\\\]\\\\]")));
+#endif
+    thumbfilename.append(".jpg");
 }
 
 bool Bing_wallpaper_downloader::request_download_json(QString _targeturl)

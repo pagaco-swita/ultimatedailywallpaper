@@ -18,12 +18,11 @@
 VERSION     = 0.0.3
 DEFINES     += PLUGIN_VERSION=\\\"$$VERSION\\\"
 DESTDIR     = ../../../../plugins
-QT          += core widgets sql xml network concurrent
-TEMPLATE    = lib
-
-DEFINES += BING_WALLPAPER_DOWNLOADER_LIBRARY
+QT          += widgets sql xml network concurrent
 CONFIG      += c++17 plugin
 TARGET      = bing-wallpaper-downloader-$$VERSION
+TEMPLATE    = lib
+DEFINES     += BING_WALLPAPER_DOWNLOADER_LIBRARY
 
 INCLUDEPATH += ../../../../src
 
