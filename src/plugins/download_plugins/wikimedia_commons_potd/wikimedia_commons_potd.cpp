@@ -30,7 +30,6 @@
 #if QT_VERSION >= 0x060000
     #include <QWidget>
     #include <QScreen>
-    #include <QRegularExpression>
 #else
     #include <QDesktopWidget>
 #endif
@@ -75,7 +74,7 @@ void Wikimedia_Commons_potd::get_picture(bool downloadthumb,
 
 QString Wikimedia_Commons_potd::pluginname()
 {
-    return "Wikimedia Commons picture of the day Downloader";
+    return tr("Wikimedia Commons picture of the day Downloader");
 }
 
 QString Wikimedia_Commons_potd::plugininfo()

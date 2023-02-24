@@ -40,6 +40,7 @@
 #include <QPluginLoader>
 #include <QFileInfo>
 #include <QtGlobal>
+#include <QFileDialog>
 
 #ifdef Q_OS_MACOS
 void MainWindow::ScreenLocked(CFNotificationCenterRef, void *observer, CFNotificationName, const void *, CFDictionaryRef)
@@ -105,10 +106,23 @@ MainWindow::MainWindow(QWidget *parent)
     QFile confFile(_confFile);
     if(!confFile.exists(_confFile))
     {
-        QString plugdir;
         QString langfilesdir;
 #if defined(Q_OS_LINUX)
-        plugdir="/usr/lib/UltimateDailyWallpaper-plugins";
+        if(detect_pluginDir()==false)
+        {
+            QMessageBox::StandardButton reply;
+            reply = QMessageBox::question(0, tr("Reset"), tr("The folder that containing the plugins was not found. "
+                                                                "Do you want to set the folder manually?"),
+                                                QMessageBox::Yes|QMessageBox::No);
+
+            if (reply == QMessageBox::Yes)
+            {
+                plugdir = QFileDialog::getExistingDirectory(this, tr("Select directory"),
+                                                             QDir::homePath(),
+                                                             QFileDialog::ShowDirsOnly
+                                                             | QFileDialog::DontResolveSymlinks);
+            }
+        }
         langfilesdir="/usr/share/locale";
 #elif defined(Q_OS_MACOS)
         plugdir=QApplication::applicationDirPath()+"/"+"plugins";
@@ -207,7 +221,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     /* **********************************************
      * Untranslated .po files serve as placeholders.
-     * ********************************************** */
+     * ***********************************************/
 
     if(!(_applang==_locale))
     {
@@ -357,7 +371,7 @@ MainWindow::MainWindow(QWidget *parent)
                 "<key>RunAtLoad</key>\n"
                 "<true/>\n"
                 "<key>Label</key>\n"
-                "<string>com.yourcompany."+QApplication::applicationName()+"</string>\n"
+                "<string>"+QApplication::applicationName()+"</string>\n"
                 "</dict>\n"
                 "</plist>\n";
 #endif            
@@ -1381,3 +1395,35 @@ bool MainWindow::loadPlugin(QString _pluginfilename)
     }
     return false;
 }
+
+#if defined(Q_OS_LINUX)
+bool MainWindow::detect_pluginDir()
+{
+    QString usrpath="/usr";
+    QDir dir(usrpath);
+    QStringList libdirs;
+    for(int i=0; i<dir.entryList().size();i++)
+    {
+        if(dir.entryList().at(i).contains("lib"))
+        {
+            dir.cd(dir.entryList().at(i));
+            libdirs.append(dir.absolutePath());
+            dir.cdUp();
+        }
+    }
+    for(int j=0; j<libdirs.size();j++)
+    {
+        dir.cd(libdirs.at(j));
+        for(int k=0; k<dir.entryList().size();k++)
+        {
+            if(dir.entryList().at(k).contains("UltimateDailyWallpaper-plugins"))
+            {
+                dir.cd(dir.entryList().at(k));
+                plugdir=dir.absolutePath();
+                return true;
+            }
+        }
+    }
+    return false;
+}
+#endif

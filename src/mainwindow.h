@@ -135,6 +135,7 @@ private:
     QString _langfilesdir;
     QString _copyright;
     QString _applang;
+    QString plugdir;
 
     bool _screenCurrentlyLocked;
     bool _needsRefreshAfterUnlock;
@@ -176,6 +177,9 @@ private:
     bool get_date_list();
     bool create_filenamelist();
     bool loadPlugin(QString _pluginfilename);
+#if defined(Q_OS_LINUX)
+    bool detect_pluginDir();
+#endif
 
     // head of the basemenu
     QImage _headImage;
