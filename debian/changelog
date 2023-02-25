@@ -1,3 +1,10 @@
+ultimatedailywallpaper (3.2.0-1) experimental; urgency=medium
+
+  * Fixes for automatic plugins-directory detection
+  * Language files updated
+
+ -- Patrice Coni <patrice.coni-dev@yandex.com>  Fri, 24 Feb 2023 23:47:57 +0100
+
 ultimatedailywallpaper (3.1.2-1) experimental; urgency=medium
 
   * Fixes for Qt6 support
