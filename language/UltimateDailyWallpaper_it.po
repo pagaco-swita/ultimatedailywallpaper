@@ -14,84 +14,84 @@ msgstr ""
 "Language: it_IT\n"
 "X-Generator: Poedit 2.4.2\n"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:26
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:34
+#: ../src/about.ui:26
+#: ../src/about.cpp:34
 msgctxt "About|"
 msgid "About"
 msgstr "Circa"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:82
+#: ../src/about.ui:82
 msgctxt "About|"
 msgid ""
 "<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
 "\">UltimateDailyWallpaper</span></p></body></html>"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:89
+#: ../src/about.ui:89
 msgctxt "About|"
 msgid ""
 "<html><head/><body><p><span style=\" font-size:12pt;\">Version: </span></p></"
 "body></html>"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:133
+#: ../src/about.ui:133
 msgctxt "About|"
 msgid "tab0"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:178
+#: ../src/about.ui:178
 msgctxt "About|"
 msgid "label_4"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:191
+#: ../src/about.ui:191
 msgctxt "About|"
 msgid "label_5"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:204
+#: ../src/about.ui:204
 msgctxt "About|"
 msgid "label_6"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:230
+#: ../src/about.ui:230
 msgctxt "About|"
 msgid "tab1"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:257
+#: ../src/about.ui:257
 msgctxt "About|"
 msgid "TextLabel"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:316
+#: ../src/about.ui:316
 msgctxt "About|"
 msgid "pushButton_3"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:335
+#: ../src/about.ui:335
 msgctxt "About|"
 msgid "pushButton"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:20
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:58
+#: ../src/photobrowser.ui:20
+#: ../src/photobrowser.ui:58
 msgctxt "PhotoBrowser|"
 msgid "Load stored picture"
 msgstr "Carica immagine memorizzata"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:90
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:187
+#: ../src/photobrowser.ui:90
+#: ../src/photobrowser.ui:187
 msgctxt "PhotoBrowser|"
 msgid "&Set as wallpaper"
 msgstr "&Imposta come sfondo"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:174
+#: ../src/photobrowser.ui:174
 msgctxt "PhotoBrowser|"
 msgid "Select a photo"
 msgstr "Seleziona una foto"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:282
+#: ../src/photobrowser.ui:282
 msgctxt "PhotoBrowser|"
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:700;\">Select date: </"
@@ -100,28 +100,28 @@ msgstr ""
 "<html><head/><body><p><span style=\" font-weight:700;\">Seleziona la data: </"
 "span></p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:325
+#: ../src/photobrowser.ui:325
 msgctxt "PhotoBrowser|"
 msgid "&Set current date"
 msgstr "&Imposta la data corrente"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:382
+#: ../src/photobrowser.ui:382
 msgctxt "PhotoBrowser|"
 msgid "<html><head/><body><p>Show photos of past days: </p></body></html>"
 msgstr ""
 "<html><head/><body><p>Mostra le foto dei giorni passati: </p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:449
+#: ../src/photobrowser.ui:449
 msgctxt "PhotoBrowser|"
 msgid "&Show pictures"
 msgstr "&Mostra immagini"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:23
+#: ../src/settingswindow.ui:23
 msgctxt "SettingsWindow|"
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:37
+#: ../src/settingswindow.ui:37
 msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Location to save background photos: </p></body></html>"
@@ -129,22 +129,22 @@ msgstr ""
 "<html><head/><body><p>Posizione per salvare le foto di sfondo: </p></body></"
 "html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:55
+#: ../src/settingswindow.ui:55
 msgctxt "SettingsWindow|"
 msgid "Choose"
 msgstr "Scegliere"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:72
+#: ../src/settingswindow.ui:72
 msgctxt "SettingsWindow|"
 msgid "Delete wallpapers older than (days): "
 msgstr "Eliminare gli sfondi più vecchi di (giorni): "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:121
+#: ../src/settingswindow.ui:121
 msgctxt "SettingsWindow|"
 msgid "Change desktop background photo automatically"
 msgstr "Cambia automaticamente la foto di sfondo del desktop"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:141
+#: ../src/settingswindow.ui:141
 msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Time of day for changing wallpaper automatically: </"
@@ -153,73 +153,73 @@ msgstr ""
 "<html><head/><body><p>Ora del giorno per cambiare automaticamente lo sfondo: "
 "</p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:181
+#: ../src/settingswindow.ui:181
 msgctxt "SettingsWindow|"
 msgid "Run Application at startup"
 msgstr "Esegui applicazione all'avvio"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:198
+#: ../src/settingswindow.ui:198
 msgctxt "SettingsWindow|"
 msgid "Change lock screen wallpaper if possible"
 msgstr "Cambia lo sfondo della schermata di blocco, se possibile"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:240
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:170
+#: ../src/settingswindow.ui:240
+#: ../src/settingswindow.cpp:170
 msgctxt "SettingsWindow|"
 msgid "Reset"
 msgstr "Resettare"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:272
+#: ../src/settingswindow.ui:272
 msgctxt "SettingsWindow|"
 msgid "Save settings"
 msgstr "Salvare"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:291
+#: ../src/settingswindow.ui:291
 msgctxt "SettingsWindow|"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:35
+#: ../src/about.cpp:35
 msgctxt "About|"
 msgid "Currently used plugin"
 msgstr "Plugin attualmente utilizzato"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:41
+#: ../src/about.cpp:41
 msgctxt "About|"
 msgid "License: GPL-3.0+"
 msgstr "Licenza: GPL-3.0+"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:45
+#: ../src/about.cpp:45
 msgctxt "About|"
 msgid "Version: "
 msgstr "Versione: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:51
+#: ../src/about.cpp:51
 msgctxt "About|"
 msgid "Patrice Coni"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:53
+#: ../src/about.cpp:53
 msgctxt "About|"
 msgid "Copyright © 2022 - "
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:59
+#: ../src/about.cpp:59
 msgctxt "About|"
 msgid "A simple application for changing wallpaper"
 msgstr "Una semplice applicazione per cambiare carta da parati"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:61
+#: ../src/about.cpp:61
 msgctxt "About|"
 msgid "Close"
 msgstr "Chiudere"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:62
+#: ../src/about.cpp:62
 msgctxt "About|"
 msgid "Visit website"
 msgstr "Visita il sito"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:93
+#: ../src/mainwindow.cpp:93
 msgctxt "MainWindow|"
 msgid ""
 "No connection to the internet.\n"
@@ -228,13 +228,13 @@ msgstr ""
 "Nessuna connessione a Internet.\n"
 "L'applicazione verrà chiusa."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:114
+#: ../src/mainwindow.cpp:114
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Reset"
 msgstr "Resettare"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:114
+#: ../src/mainwindow.cpp:114
 msgctxt "MainWindow|"
 msgid ""
 "The folder that containing the plugins was not found. Do you want to set the "
@@ -243,43 +243,43 @@ msgstr ""
 "La cartella contenente i plugin non è stata trovata. Si desidera impostare "
 "la cartella manualmente?"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:120
+#: ../src/mainwindow.cpp:120
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Select directory"
 msgstr "Seleziona directory"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:304
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:315
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:304
+#: ../src/mainwindow.cpp:315
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Errore"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:304
+#: ../src/mainwindow.cpp:304
 msgctxt "MainWindow|"
 msgid "No plugins found."
 msgstr "Nessun plugin trovato."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:310
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:716
+#: ../src/mainwindow.cpp:310
+#: ../src/mainwindow.cpp:716
 msgctxt "MainWindow|"
 msgid "done."
 msgstr "fatto."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:311
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:717
+#: ../src/mainwindow.cpp:311
+#: ../src/mainwindow.cpp:717
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr "Plugin usato: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:315
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:315
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr "Errore durante il caricamento del plugin."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:397
+#: ../src/mainwindow.cpp:397
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
@@ -288,138 +288,138 @@ msgstr ""
 "È stato rilevato un errore all'avvio dell'applicazione.\n"
 "L'applicazione verrà chiusa."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:431
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:783
+#: ../src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:783
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr "Nessuna connessione a Internet."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:431
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr "Si prega di controllare la connessione internet."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:706
+#: ../src/mainwindow.cpp:706
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr "&Provider"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:744
+#: ../src/mainwindow.cpp:744
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr "&Informazioni su questa immagine e licenza"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:748
+#: ../src/mainwindow.cpp:748
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr "&Informazioni su questa immagine e copyright"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:755
+#: ../src/mainwindow.cpp:755
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr "&Scarica le immagini del passato"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:759
+#: ../src/mainwindow.cpp:759
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr "&Carica immagine memorizzata"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:762
+#: ../src/mainwindow.cpp:762
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr "&Impostazioni"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:765
+#: ../src/mainwindow.cpp:765
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr "&Circa"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:768
+#: ../src/mainwindow.cpp:768
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr "&Dimettersi"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:855
+#: ../src/mainwindow.cpp:855
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr "Descrizione: \n"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:1352
+#: ../src/mainwindow.cpp:1352
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr "Carica plugin..."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:150
+#: ../src/photobrowser.cpp:150
 msgctxt "PhotoBrowser|"
 msgid "Error"
 msgstr "Errore"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:150
+#: ../src/photobrowser.cpp:150
 msgctxt "PhotoBrowser|"
 msgid "Error while loading plugin."
 msgstr "Errore durante il caricamento del plugin."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:155
+#: ../src/photobrowser.cpp:155
 msgctxt "PhotoBrowser|"
 msgid "Past pictures of the day (Wikimedia Commons)"
 msgstr "Foto passate del giorno (Wikimedia Commons)"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:203
+#: ../src/photobrowser.cpp:203
 msgctxt "PhotoBrowser|"
 msgid "Get more information"
 msgstr "Richiedi maggiori informazioni"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:381
+#: ../src/photobrowser.cpp:381
 msgctxt "PhotoBrowser|"
 msgid "Details"
 msgstr "Dettagli"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:385
+#: ../src/photobrowser.cpp:385
 msgctxt "PhotoBrowser|"
 msgid "Please select a picture."
 msgstr "Seleziona un'immagine."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:393
+#: ../src/photobrowser.cpp:393
 msgctxt "PhotoBrowser|"
 msgid "Title: "
 msgstr "Titolo: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:400
+#: ../src/photobrowser.cpp:400
 msgctxt "PhotoBrowser|"
 msgid "Description: "
 msgstr "Descrizione: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:406
+#: ../src/photobrowser.cpp:406
 msgctxt "PhotoBrowser|"
 msgid "Picture size:"
 msgstr "Dimensioni immagine:"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:416
+#: ../src/photobrowser.cpp:416
 msgctxt "PhotoBrowser|"
 msgid "Preview:"
 msgstr "Anteprima:"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:501
+#: ../src/photobrowser.cpp:501
 msgctxt "PhotoBrowser|"
 msgid "The entered date must not be in the future."
 msgstr "La data inserita non deve essere futura."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:454
+#: ../src/photobrowser.cpp:454
 msgctxt "QProgressDialog|"
 msgid "Download in progress..."
 msgstr "Download in corso..."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:583
+#: ../src/photobrowser.cpp:583
 msgctxt "QProgressDialog|"
 msgid "Working in progress..."
 msgstr "In corso di lavorazione..."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:136
+#: ../src/settingswindow.cpp:136
 msgctxt "SettingsWindow|"
 msgid "Save changes"
 msgstr "Salvare"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:136
+#: ../src/settingswindow.cpp:136
 msgctxt "SettingsWindow|"
 msgid ""
 "The application will be restart for the changes to take effect. Do you want "
@@ -428,12 +428,12 @@ msgstr ""
 "L'applicazione verrà riavviata per rendere effettive le modifiche. Vuoi "
 "salvare le modifiche?"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:149
+#: ../src/settingswindow.cpp:149
 msgctxt "SettingsWindow|"
 msgid "Select directory"
 msgstr "Seleziona directory"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:170
+#: ../src/settingswindow.cpp:170
 msgctxt "SettingsWindow|"
 msgid ""
 "This will reset all settings to the default settings. All existing "
@@ -442,11 +442,11 @@ msgstr ""
 "In questo modo verranno ripristinate tutte le impostazioni predefinite. "
 "Tutti gli sfondi esistenti verranno eliminati. Vuoi continuare?"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:72
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:132
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:144
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:168
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:204
+#: ../src/setwallpaper.cpp:72
+#: ../src/setwallpaper.cpp:132
+#: ../src/setwallpaper.cpp:144
+#: ../src/setwallpaper.cpp:168
+#: ../src/setwallpaper.cpp:204
 msgctxt "setWallpaper|"
 msgid "Error - Failed to set wallpaper."
 msgstr "Errore - Impossibile impostare lo sfondo."

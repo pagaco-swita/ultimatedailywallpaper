@@ -14,13 +14,13 @@ msgstr ""
 "Language: ko_KR\n"
 "X-Generator: Poedit 2.4.2\n"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:26
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:34
+#: ../src/about.ui:26
+#: ../src/about.cpp:34
 msgctxt "About|"
 msgid "About"
 msgstr "이 응용 프로그램에 대해"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:82
+#: ../src/about.ui:82
 msgctxt "About|"
 msgid ""
 "<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
@@ -29,71 +29,71 @@ msgstr ""
 "<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
 "\">UltimateDailyWallpaper</span></p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:89
+#: ../src/about.ui:89
 msgctxt "About|"
 msgid ""
 "<html><head/><body><p><span style=\" font-size:12pt;\">Version: </span></p></"
 "body></html>"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:133
+#: ../src/about.ui:133
 msgctxt "About|"
 msgid "tab0"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:178
+#: ../src/about.ui:178
 msgctxt "About|"
 msgid "label_4"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:191
+#: ../src/about.ui:191
 msgctxt "About|"
 msgid "label_5"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:204
+#: ../src/about.ui:204
 msgctxt "About|"
 msgid "label_6"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:230
+#: ../src/about.ui:230
 msgctxt "About|"
 msgid "tab1"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:257
+#: ../src/about.ui:257
 msgctxt "About|"
 msgid "TextLabel"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:316
+#: ../src/about.ui:316
 msgctxt "About|"
 msgid "pushButton_3"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.ui:335
+#: ../src/about.ui:335
 msgctxt "About|"
 msgid "pushButton"
 msgstr ""
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:20
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:58
+#: ../src/photobrowser.ui:20
+#: ../src/photobrowser.ui:58
 msgctxt "PhotoBrowser|"
 msgid "Load stored picture"
 msgstr "저장된 사진 로드"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:90
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:187
+#: ../src/photobrowser.ui:90
+#: ../src/photobrowser.ui:187
 msgctxt "PhotoBrowser|"
 msgid "&Set as wallpaper"
 msgstr "&배경 화면으로 설정"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:174
+#: ../src/photobrowser.ui:174
 msgctxt "PhotoBrowser|"
 msgid "Select a photo"
 msgstr "사진 선택"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:282
+#: ../src/photobrowser.ui:282
 msgctxt "PhotoBrowser|"
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:700;\">Select date: </"
@@ -102,48 +102,48 @@ msgstr ""
 "<html><head/><body><p><span style=\" font-weight:700;\">날짜 선택: </span></"
 "p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:325
+#: ../src/photobrowser.ui:325
 msgctxt "PhotoBrowser|"
 msgid "&Set current date"
 msgstr "&현재 날짜 설정"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:382
+#: ../src/photobrowser.ui:382
 msgctxt "PhotoBrowser|"
 msgid "<html><head/><body><p>Show photos of past days: </p></body></html>"
 msgstr "<html><head/><body><p>지난 날의 사진 다운로드: </p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.ui:449
+#: ../src/photobrowser.ui:449
 msgctxt "PhotoBrowser|"
 msgid "&Show pictures"
 msgstr "&사진 표시"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:23
+#: ../src/settingswindow.ui:23
 msgctxt "SettingsWindow|"
 msgid "Settings"
 msgstr "응용 프로그램 설정"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:37
+#: ../src/settingswindow.ui:37
 msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Location to save background photos: </p></body></html>"
 msgstr "<html><head/><body><p>배경 사진을 저장할 위치: </p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:55
+#: ../src/settingswindow.ui:55
 msgctxt "SettingsWindow|"
 msgid "Choose"
 msgstr "고르다"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:72
+#: ../src/settingswindow.ui:72
 msgctxt "SettingsWindow|"
 msgid "Delete wallpapers older than (days): "
 msgstr "다음보다 오래된 배경 화면 삭제(일): "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:121
+#: ../src/settingswindow.ui:121
 msgctxt "SettingsWindow|"
 msgid "Change desktop background photo automatically"
 msgstr "바탕 화면 배경 사진 자동 변경"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:141
+#: ../src/settingswindow.ui:141
 msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Time of day for changing wallpaper automatically: </"
@@ -151,73 +151,73 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>배경 화면을 자동으로 변경하는 시간: </p></body></html>"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:181
+#: ../src/settingswindow.ui:181
 msgctxt "SettingsWindow|"
 msgid "Run Application at startup"
 msgstr "시작 시 응용 프로그램 실행"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:198
+#: ../src/settingswindow.ui:198
 msgctxt "SettingsWindow|"
 msgid "Change lock screen wallpaper if possible"
 msgstr "가능한 경우 잠금 화면 배경 화면 변경"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:240
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:170
+#: ../src/settingswindow.ui:240
+#: ../src/settingswindow.cpp:170
 msgctxt "SettingsWindow|"
 msgid "Reset"
 msgstr "재설정"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:272
+#: ../src/settingswindow.ui:272
 msgctxt "SettingsWindow|"
 msgid "Save settings"
 msgstr "설정 저장"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.ui:291
+#: ../src/settingswindow.ui:291
 msgctxt "SettingsWindow|"
 msgid "Cancel"
 msgstr "취소"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:35
+#: ../src/about.cpp:35
 msgctxt "About|"
 msgid "Currently used plugin"
 msgstr "현재 사용 중인 플러그인"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:41
+#: ../src/about.cpp:41
 msgctxt "About|"
 msgid "License: GPL-3.0+"
 msgstr "면허: GNU 일반 공중 사용 허가서 - 버전 3.0+"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:45
+#: ../src/about.cpp:45
 msgctxt "About|"
 msgid "Version: "
 msgstr "버전: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:51
+#: ../src/about.cpp:51
 msgctxt "About|"
 msgid "Patrice Coni"
 msgstr "파트리스 코니 (Patrice Coni)"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:53
+#: ../src/about.cpp:53
 msgctxt "About|"
 msgid "Copyright © 2022 - "
 msgstr "저작권 © 2022 - "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:59
+#: ../src/about.cpp:59
 msgctxt "About|"
 msgid "A simple application for changing wallpaper"
 msgstr "배경 화면 변경을위한 간단한 응용 프로그램"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:61
+#: ../src/about.cpp:61
 msgctxt "About|"
 msgid "Close"
 msgstr "닫다"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/about.cpp:62
+#: ../src/about.cpp:62
 msgctxt "About|"
 msgid "Visit website"
 msgstr "웹 사이트 방문"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:93
+#: ../src/mainwindow.cpp:93
 msgctxt "MainWindow|"
 msgid ""
 "No connection to the internet.\n"
@@ -226,13 +226,13 @@ msgstr ""
 "인터넷에 연결되어 있지 않습니다.\n"
 "신청이 마감됩니다."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:114
+#: ../src/mainwindow.cpp:114
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Reset"
 msgstr "재설정"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:114
+#: ../src/mainwindow.cpp:114
 msgctxt "MainWindow|"
 msgid ""
 "The folder that containing the plugins was not found. Do you want to set the "
@@ -240,43 +240,43 @@ msgid ""
 msgstr ""
 "플러그인이 포함된 폴더를 찾을 수 없습니다. 폴더를 수동으로 설정하시겠습니까?"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:120
+#: ../src/mainwindow.cpp:120
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Select directory"
 msgstr "디렉토리 선택"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:304
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:315
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:304
+#: ../src/mainwindow.cpp:315
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "오류"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:304
+#: ../src/mainwindow.cpp:304
 msgctxt "MainWindow|"
 msgid "No plugins found."
 msgstr "플러그인을 찾을 수 없습니다."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:310
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:716
+#: ../src/mainwindow.cpp:310
+#: ../src/mainwindow.cpp:716
 msgctxt "MainWindow|"
 msgid "done."
 msgstr "완전한"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:311
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:717
+#: ../src/mainwindow.cpp:311
+#: ../src/mainwindow.cpp:717
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr "플러그인: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:315
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:315
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr "플러그인을로드하는 동안 오류가 발생했습니다."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:397
+#: ../src/mainwindow.cpp:397
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
@@ -285,140 +285,140 @@ msgstr ""
 "응용 프로그램을 시작할 때 오류가 감지되었습니다.\n"
 "신청이 마감됩니다."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:431
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:783
+#: ../src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:783
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr ""
 "응용 프로그램을 시작할 때 오류가 감지되었습니다.\n"
 "응용 프로그램 중단."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:431
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr "인터넷 연결을 확인하십시오."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:706
+#: ../src/mainwindow.cpp:706
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr "&공급자"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:744
+#: ../src/mainwindow.cpp:744
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr "&이 사진 및 라이센스에 대해"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:748
+#: ../src/mainwindow.cpp:748
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr "&이 사진과 저작권에 대해"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:755
+#: ../src/mainwindow.cpp:755
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr "&지난 사진 다운로드"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:759
+#: ../src/mainwindow.cpp:759
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr "&저장된 사진 로드"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:762
+#: ../src/mainwindow.cpp:762
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr "&옵션"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:765
+#: ../src/mainwindow.cpp:765
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr "&정보"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:768
+#: ../src/mainwindow.cpp:768
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr "&출구"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:855
+#: ../src/mainwindow.cpp:855
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr "이미지 설명: \n"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/mainwindow.cpp:1352
+#: ../src/mainwindow.cpp:1352
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr "플러그인 로드..."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:150
+#: ../src/photobrowser.cpp:150
 msgctxt "PhotoBrowser|"
 msgid "Error"
 msgstr "오류"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:150
+#: ../src/photobrowser.cpp:150
 msgctxt "PhotoBrowser|"
 msgid "Error while loading plugin."
 msgstr "플러그인을로드하는 동안 오류가 발생했습니다."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:155
+#: ../src/photobrowser.cpp:155
 msgctxt "PhotoBrowser|"
 msgid "Past pictures of the day (Wikimedia Commons)"
 msgstr "오늘의 과거 사진 - 위키 미디어 공용"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:203
+#: ../src/photobrowser.cpp:203
 msgctxt "PhotoBrowser|"
 msgid "Get more information"
 msgstr "더 많은 정보 얻기"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:381
+#: ../src/photobrowser.cpp:381
 msgctxt "PhotoBrowser|"
 msgid "Details"
 msgstr "세부 정보"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:385
+#: ../src/photobrowser.cpp:385
 msgctxt "PhotoBrowser|"
 msgid "Please select a picture."
 msgstr "사진을 선택하십시오."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:393
+#: ../src/photobrowser.cpp:393
 msgctxt "PhotoBrowser|"
 msgid "Title: "
 msgstr "타이틀: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:400
+#: ../src/photobrowser.cpp:400
 msgctxt "PhotoBrowser|"
 msgid "Description: "
 msgstr "이미지 설명: "
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:406
+#: ../src/photobrowser.cpp:406
 msgctxt "PhotoBrowser|"
 msgid "Picture size:"
 msgstr "그림 크기:"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:416
+#: ../src/photobrowser.cpp:416
 msgctxt "PhotoBrowser|"
 msgid "Preview:"
 msgstr "미리 보기:"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:501
+#: ../src/photobrowser.cpp:501
 msgctxt "PhotoBrowser|"
 msgid "The entered date must not be in the future."
 msgstr "입력한 날짜는 미래가 아니어야 합니다."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:454
+#: ../src/photobrowser.cpp:454
 msgctxt "QProgressDialog|"
 msgid "Download in progress..."
 msgstr "다운로드 진행 중..."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/photobrowser.cpp:583
+#: ../src/photobrowser.cpp:583
 msgctxt "QProgressDialog|"
 msgid "Working in progress..."
 msgstr "작업 진행 중..."
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:136
+#: ../src/settingswindow.cpp:136
 msgctxt "SettingsWindow|"
 msgid "Save changes"
 msgstr "변경 내용 저장"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:136
+#: ../src/settingswindow.cpp:136
 msgctxt "SettingsWindow|"
 msgid ""
 "The application will be restart for the changes to take effect. Do you want "
@@ -427,12 +427,12 @@ msgstr ""
 "변경 사항을 적용하려면 응용 프로그램이 다시 시작됩니다. 변경 사항을 저장하시"
 "겠습니까?"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:149
+#: ../src/settingswindow.cpp:149
 msgctxt "SettingsWindow|"
 msgid "Select directory"
 msgstr "디렉토리 선택"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/settingswindow.cpp:170
+#: ../src/settingswindow.cpp:170
 msgctxt "SettingsWindow|"
 msgid ""
 "This will reset all settings to the default settings. All existing "
@@ -441,11 +441,11 @@ msgstr ""
 "이렇게 하면 모든 설정이 기본 설정으로 재설정됩니다. 기존의 모든 배경 화면이 "
 "삭제됩니다. 계속하시겠습니까?"
 
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:72
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:132
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:144
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:168
-#: /home/patrice/Projekte/Projekte-QT/ultimatedailywallpaper-3.2.0/src/setwallpaper.cpp:204
+#: ../src/setwallpaper.cpp:72
+#: ../src/setwallpaper.cpp:132
+#: ../src/setwallpaper.cpp:144
+#: ../src/setwallpaper.cpp:168
+#: ../src/setwallpaper.cpp:204
 msgctxt "setWallpaper|"
 msgid "Error - Failed to set wallpaper."
 msgstr "오류 - 배경 화면을 설정하지 못했습니다."
