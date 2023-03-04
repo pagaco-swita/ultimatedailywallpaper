@@ -30,6 +30,7 @@ To build UltimateDailyWallpaper from source, you will need:
 
 ### Build requirements:
  * Qt 5.14+
+ * Git
  * mesa-libGL
  * make
  * gcc/gcc-c++
@@ -40,7 +41,8 @@ To build UltimateDailyWallpaper from source, you will need:
 ### Build instructions:
 
 ```
-$ cd ./src
+$ git clone https://github.com/pagaco-swita/ultimatedailywallpaper.git
+$ cd ultimatedailywallpaper
 $ qmake (or qmake-qt5)
 $ make -f Makefile
 ``` 
