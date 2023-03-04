@@ -15,6 +15,10 @@ UltimateDailyWallpaper is a utility to use the daily picture of a provider as wa
 * gnome-shell-extension-appindicator - support for legacy tray icons on GNOME 3 -> https://github.com/ubuntu/gnome-shell-extension-appindicator
 * gnome-shell-extension-top-icons-plus - https://github.com/phocean/TopIcons-plus
 
+## Installation:
+UltimateDailyWallpaper is currently available in the repositories of:
+ * OpenSUSE
+ 
 ## How to build the Application:
 
 ```
