@@ -22,7 +22,7 @@ UltimateDailyWallpaper is currently available in the repository of:
  * <a href="https://software.opensuse.org/package/UltimateDailyWallpaper?search_term=UltimateDailyWallpaper">OpenSUSE</a>
 
 ### macOS
-Download the current release of UltimateDailyWallpaper for macOS:
+Download the current release of UltimateDailyWallpaper for macOS: <br>
 <a href="https://github.com/pagaco-swita/ultimatedailywallpaper/releases">https://github.com/pagaco-swita/ultimatedailywallpaper/releases</a>
 
 ## Build from source:
