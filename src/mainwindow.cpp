@@ -340,9 +340,14 @@ MainWindow::MainWindow(QWidget *parent)
     QFile autorun_file;
 
 #if defined(Q_OS_LINUX)
-            autorun_file.setFileName(_autorun_location+"/"+QApplication::applicationName()+".desktop");
+    QDir _autorundir(_autorun_location);
+    if(!_autorundir.exists())
+    {
+        _autorundir.mkdir(_autorun_location);
+    }
+    autorun_file.setFileName(_autorun_location+"/"+QApplication::applicationName()+".desktop");
 #elif defined(Q_OS_MACOS)
-            autorun_file.setFileName(QDir::homePath()+"/Library/LaunchAgents/"+"com.yourcompany."+QApplication::applicationName()+".plist");
+    autorun_file.setFileName(QDir::homePath()+"/Library/LaunchAgents/"+"com.yourcompany."+QApplication::applicationName()+".plist");
 #endif
 
     if(_autorun==2)
