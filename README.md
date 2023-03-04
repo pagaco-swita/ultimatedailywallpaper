@@ -16,7 +16,6 @@ UltimateDailyWallpaper is a utility to use the daily picture of a provider as wa
 * gnome-shell-extension-top-icons-plus - https://github.com/phocean/TopIcons-plus
 
 ## Installation:
-### Linux:
 UltimateDailyWallpaper is currently available in the repositories of:
  * <a href="https://software.opensuse.org/package/UltimateDailyWallpaper?search_term=UltimateDailyWallpaper">OpenSUSE</a>
 
