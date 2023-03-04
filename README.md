@@ -17,7 +17,7 @@ UltimateDailyWallpaper is a utility to use the daily picture of a provider as wa
 
 ## Installation:
 UltimateDailyWallpaper is currently available in the repositories of:
- * OpenSUSE
+ * <a href="https://software.opensuse.org/package/UltimateDailyWallpaper?search_term=UltimateDailyWallpaper">OpenSUSE</a>
  
 ## How to build the Application:
 
