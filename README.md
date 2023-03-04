@@ -19,6 +19,26 @@ UltimateDailyWallpaper is a utility to use the daily picture of a provider as wa
 UltimateDailyWallpaper is currently available in the repository of:
  * <a href="https://software.opensuse.org/package/UltimateDailyWallpaper?search_term=UltimateDailyWallpaper">OpenSUSE</a>
 
+## Build from source:
+To build UltimateDailyWallpaper from source, you will need:
+
+### Build requirements:
+ * Qt 5.14+
+ * mesa-libGL
+ * make
+ * gcc/gcc-c++
+
+### Required packages to use UltimateDailyWallpaper:
+ * curl
+
+### Build instructions:
+
+```
+$ cd ./src
+$ qmake (or qmake-qt5)
+$ make -f Makefile
+``` 
+ 
 ## Screenshots: <br />
 
 ### Main Application
