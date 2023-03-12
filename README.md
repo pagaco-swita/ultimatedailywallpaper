@@ -17,13 +17,27 @@ UltimateDailyWallpaper is a utility to use the daily picture of a provider as wa
 
 ## Installation:
 
-### Linux
-UltimateDailyWallpaper is currently available in the repository of:
- * <a href="https://software.opensuse.org/package/UltimateDailyWallpaper?search_term=UltimateDailyWallpaper">OpenSUSE</a>
-
 ### macOS
 Download the current release of UltimateDailyWallpaper for macOS: <br>
 <a href="https://github.com/pagaco-swita/ultimatedailywallpaper/releases">https://github.com/pagaco-swita/ultimatedailywallpaper/releases</a>
+
+### Linux
+UltimateDailyWallpaper is currently available in the repositories of:
+ * <a href="https://software.opensuse.org/package/UltimateDailyWallpaper?search_term=UltimateDailyWallpaper">OpenSUSE</a>
+ * <a href="https://slackbuilds.org/repository/15.0/desktop/UltimateDailyWallpaper/">SlackBuilds.org</a>
+
+#### Installation on OpenSUSE
+```
+sudo zypper install UltimateDailyWallpaper
+```
+
+#### Installation on Slackware Linux
+
+Sbopkg is required to install UltimateDailyWallpaper on Slackware Linux.
+
+```
+sudo sbopkg -B -g UltimateDailyWallpaper
+```
 
 ## Build from source:
 To build UltimateDailyWallpaper from source, you will need:
