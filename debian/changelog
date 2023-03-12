@@ -1,10 +1,10 @@
-ultimatedailywallpaper (3.2.1-1) UNRELEASED; urgency=medium
+ultimatedailywallpaper (3.2.1-1) experimental; urgency=medium
 
   * Fixed bug: Delete old picturefiles automatically
   * debian/control:
-	- fixed depends (line 12)
+    - line 12: fixed depends
   * UltimateDailyWallpaper.desktop:
-	- Keywords entry added (line 9)
+    - Keywords entry added
 
  -- Patrice Coni <patrice.coni-dev@yandex.com>  Sun, 12 Mar 2023 10:24:16 +0100
 
