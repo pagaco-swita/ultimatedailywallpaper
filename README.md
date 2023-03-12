@@ -36,7 +36,7 @@ sudo zypper install UltimateDailyWallpaper
 Sbopkg is required to install UltimateDailyWallpaper on Slackware Linux.
 
 ```
-sudo sbopkg -B -g UltimateDailyWallpaper
+sudo sbopkg -B -i UltimateDailyWallpaper
 ```
 
 ## Build from source:
