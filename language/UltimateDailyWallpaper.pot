@@ -190,8 +190,12 @@ msgstr ""
 
 #: ../src/about.cpp:59
 msgctxt "About|"
-msgid "A simple application for changing wallpaper"
+msgid "A wallpaper changer"
 msgstr ""
+
+#~ msgctxt "About|"
+#~ msgid "A simple application for changing wallpaper"
+#~ msgstr ""
 
 #: ../src/about.cpp:61
 msgctxt "About|"
@@ -229,7 +233,7 @@ msgstr ""
 
 #: ../src/mainwindow.cpp:304
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr ""
@@ -240,87 +244,87 @@ msgid "No plugins found."
 msgstr ""
 
 #: ../src/mainwindow.cpp:310
-#: ../src/mainwindow.cpp:716
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "done."
 msgstr ""
 
 #: ../src/mainwindow.cpp:311
-#: ../src/mainwindow.cpp:717
+#: ../src/mainwindow.cpp:722
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr ""
 
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr ""
 
-#: ../src/mainwindow.cpp:397
+#: ../src/mainwindow.cpp:402
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
 "The application will be closed."
 msgstr ""
 
-#: ../src/mainwindow.cpp:431
-#: ../src/mainwindow.cpp:783
+#: ../src/mainwindow.cpp:436
+#: ../src/mainwindow.cpp:788
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr ""
 
-#: ../src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:436
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr ""
 
-#: ../src/mainwindow.cpp:706
+#: ../src/mainwindow.cpp:711
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr ""
 
-#: ../src/mainwindow.cpp:744
+#: ../src/mainwindow.cpp:749
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr ""
 
-#: ../src/mainwindow.cpp:748
+#: ../src/mainwindow.cpp:753
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr ""
 
-#: ../src/mainwindow.cpp:755
+#: ../src/mainwindow.cpp:760
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr ""
 
-#: ../src/mainwindow.cpp:759
+#: ../src/mainwindow.cpp:764
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr ""
 
-#: ../src/mainwindow.cpp:762
+#: ../src/mainwindow.cpp:767
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr ""
 
-#: ../src/mainwindow.cpp:765
+#: ../src/mainwindow.cpp:770
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr ""
 
-#: ../src/mainwindow.cpp:768
+#: ../src/mainwindow.cpp:773
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr ""
 
-#: ../src/mainwindow.cpp:855
+#: ../src/mainwindow.cpp:860
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr ""
 
-#: ../src/mainwindow.cpp:1352
+#: ../src/mainwindow.cpp:1369
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr ""

@@ -56,7 +56,7 @@ About::About(QWidget *parent) :
     ui->label_5->setText(_copyright+current_year.toString("yyyy")+" "+_author);
 
     ui->label_4->clear();
-    ui->label_4->setText(tr("A simple application for changing wallpaper"));
+    ui->label_4->setText(tr("A wallpaper changer"));
 
     ui->pushButton->setText(tr("Close"));
     ui->pushButton_3->setText(tr("Visit website"));

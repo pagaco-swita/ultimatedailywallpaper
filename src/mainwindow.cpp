@@ -1143,12 +1143,24 @@ void MainWindow::delete_old_pictures()
         for(int j = 0; j < filenamelist.size(); j++)
         {
             QString oldwallfile = _picturedir+"/"+filenamelist.at(j);
+
+            if(oldwallfile.contains("\x2F\x2F"))
+            {
+                oldwallfile.replace("\x2F\x2F", "\x2F");
+            }
+
             QFile old_wallp(oldwallfile);
             old_wallp.remove();
             qDebug() << "Picture " << oldwallfile << " deleted.";
             oldwallfile.clear();
 
-            QString oldthumbfile = _thumbfiledir+"/"+"thumb_"+filenamelist.at(j);
+            QString oldthumbfile = _thumbfiledir+"/"+filenamelist.at(j);
+
+            if(oldthumbfile.contains("\x2F\x2F"))
+            {
+                oldthumbfile.replace("\x2F\x2F", "\x2F");
+            }
+
             QFile old_thumbf(oldthumbfile);
             old_wallp.remove();
             qDebug() << "Thumbnail-Picture " << oldthumbfile << " deleted.";

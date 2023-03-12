@@ -6,13 +6,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: ko_KR\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Patrice Coni <patrice.coni-dev@yandex.com>\n"
-"Language-Team: \n"
-"Language: ko_KR\n"
-"X-Generator: Poedit 2.4.2\n"
 
 #: ../src/about.ui:26
 #: ../src/about.cpp:34
@@ -23,17 +16,17 @@ msgstr "이 응용 프로그램에 대해"
 #: ../src/about.ui:82
 msgctxt "About|"
 msgid ""
-"<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
-"\">UltimateDailyWallpaper</span></p></body></html>"
+"<html><head/><body><p><span style=\" font-size:16pt; "
+"font-weight:700;\">UltimateDailyWallpaper</span></p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
-"\">UltimateDailyWallpaper</span></p></body></html>"
+"<html><head/><body><p><span style=\" font-size:16pt; "
+"font-weight:700;\">UltimateDailyWallpaper</span></p></body></html>"
 
 #: ../src/about.ui:89
 msgctxt "About|"
 msgid ""
-"<html><head/><body><p><span style=\" font-size:12pt;\">Version: </span></p></"
-"body></html>"
+"<html><head/><body><p><span style=\" font-size:12pt;\">Version: "
+"</span></p></body></html>"
 msgstr ""
 
 #: ../src/about.ui:133
@@ -96,11 +89,11 @@ msgstr "사진 선택"
 #: ../src/photobrowser.ui:282
 msgctxt "PhotoBrowser|"
 msgid ""
-"<html><head/><body><p><span style=\" font-weight:700;\">Select date: </"
-"span></p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:700;\">Select date: "
+"</span></p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:700;\">날짜 선택: </span></"
-"p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:700;\">날짜 선택: "
+"</span></p></body></html>"
 
 #: ../src/photobrowser.ui:325
 msgctxt "PhotoBrowser|"
@@ -146,10 +139,9 @@ msgstr "바탕 화면 배경 사진 자동 변경"
 #: ../src/settingswindow.ui:141
 msgctxt "SettingsWindow|"
 msgid ""
-"<html><head/><body><p>Time of day for changing wallpaper automatically: </"
-"p></body></html>"
-msgstr ""
-"<html><head/><body><p>배경 화면을 자동으로 변경하는 시간: </p></body></html>"
+"<html><head/><body><p>Time of day for changing wallpaper automatically: "
+"</p></body></html>"
+msgstr "<html><head/><body><p>배경 화면을 자동으로 변경하는 시간: </p></body></html>"
 
 #: ../src/settingswindow.ui:181
 msgctxt "SettingsWindow|"
@@ -204,8 +196,12 @@ msgstr "저작권 © 2022 - "
 
 #: ../src/about.cpp:59
 msgctxt "About|"
-msgid "A simple application for changing wallpaper"
-msgstr "배경 화면 변경을위한 간단한 응용 프로그램"
+msgid "A wallpaper changer"
+msgstr ""
+
+#~ msgctxt "About|"
+#~ msgid "A simple application for changing wallpaper"
+#~ msgstr "배경 화면 변경을위한 간단한 응용 프로그램"
 
 #: ../src/about.cpp:61
 msgctxt "About|"
@@ -237,8 +233,7 @@ msgctxt "MainWindow|"
 msgid ""
 "The folder that containing the plugins was not found. Do you want to set the "
 "folder manually?"
-msgstr ""
-"플러그인이 포함된 폴더를 찾을 수 없습니다. 폴더를 수동으로 설정하시겠습니까?"
+msgstr "플러그인이 포함된 폴더를 찾을 수 없습니다. 폴더를 수동으로 설정하시겠습니까?"
 
 #: ../src/mainwindow.cpp:120
 #, fuzzy
@@ -248,7 +243,7 @@ msgstr "디렉토리 선택"
 
 #: ../src/mainwindow.cpp:304
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "오류"
@@ -259,24 +254,24 @@ msgid "No plugins found."
 msgstr "플러그인을 찾을 수 없습니다."
 
 #: ../src/mainwindow.cpp:310
-#: ../src/mainwindow.cpp:716
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "done."
 msgstr "완전한"
 
 #: ../src/mainwindow.cpp:311
-#: ../src/mainwindow.cpp:717
+#: ../src/mainwindow.cpp:722
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr "플러그인: "
 
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr "플러그인을로드하는 동안 오류가 발생했습니다."
 
-#: ../src/mainwindow.cpp:397
+#: ../src/mainwindow.cpp:402
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
@@ -285,65 +280,65 @@ msgstr ""
 "응용 프로그램을 시작할 때 오류가 감지되었습니다.\n"
 "신청이 마감됩니다."
 
-#: ../src/mainwindow.cpp:431
-#: ../src/mainwindow.cpp:783
+#: ../src/mainwindow.cpp:436
+#: ../src/mainwindow.cpp:788
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr ""
 "응용 프로그램을 시작할 때 오류가 감지되었습니다.\n"
 "응용 프로그램 중단."
 
-#: ../src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:436
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr "인터넷 연결을 확인하십시오."
 
-#: ../src/mainwindow.cpp:706
+#: ../src/mainwindow.cpp:711
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr "&공급자"
 
-#: ../src/mainwindow.cpp:744
+#: ../src/mainwindow.cpp:749
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr "&이 사진 및 라이센스에 대해"
 
-#: ../src/mainwindow.cpp:748
+#: ../src/mainwindow.cpp:753
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr "&이 사진과 저작권에 대해"
 
-#: ../src/mainwindow.cpp:755
+#: ../src/mainwindow.cpp:760
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr "&지난 사진 다운로드"
 
-#: ../src/mainwindow.cpp:759
+#: ../src/mainwindow.cpp:764
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr "&저장된 사진 로드"
 
-#: ../src/mainwindow.cpp:762
+#: ../src/mainwindow.cpp:767
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr "&옵션"
 
-#: ../src/mainwindow.cpp:765
+#: ../src/mainwindow.cpp:770
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr "&정보"
 
-#: ../src/mainwindow.cpp:768
+#: ../src/mainwindow.cpp:773
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr "&출구"
 
-#: ../src/mainwindow.cpp:855
+#: ../src/mainwindow.cpp:860
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr "이미지 설명: \n"
 
-#: ../src/mainwindow.cpp:1352
+#: ../src/mainwindow.cpp:1369
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr "플러그인 로드..."
@@ -423,9 +418,7 @@ msgctxt "SettingsWindow|"
 msgid ""
 "The application will be restart for the changes to take effect. Do you want "
 "save the changes?"
-msgstr ""
-"변경 사항을 적용하려면 응용 프로그램이 다시 시작됩니다. 변경 사항을 저장하시"
-"겠습니까?"
+msgstr "변경 사항을 적용하려면 응용 프로그램이 다시 시작됩니다. 변경 사항을 저장하시겠습니까?"
 
 #: ../src/settingswindow.cpp:149
 msgctxt "SettingsWindow|"
@@ -437,9 +430,7 @@ msgctxt "SettingsWindow|"
 msgid ""
 "This will reset all settings to the default settings. All existing "
 "wallpapers will be deleted. Do you want to continue?"
-msgstr ""
-"이렇게 하면 모든 설정이 기본 설정으로 재설정됩니다. 기존의 모든 배경 화면이 "
-"삭제됩니다. 계속하시겠습니까?"
+msgstr "이렇게 하면 모든 설정이 기본 설정으로 재설정됩니다. 기존의 모든 배경 화면이 삭제됩니다. 계속하시겠습니까?"
 
 #: ../src/setwallpaper.cpp:72
 #: ../src/setwallpaper.cpp:132

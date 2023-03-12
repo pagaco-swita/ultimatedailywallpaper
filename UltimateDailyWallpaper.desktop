@@ -6,4 +6,5 @@ Comment=A wallpaper changer
 Terminal=false
 Icon=/usr/share/pixmaps/ultimatedesktopwallpaper_icon.png
 Categories=Utility;
+Keywords=ultimatedailywallpaper;background;wallpaper;wallpaper-changer;
 StartupNotify=false

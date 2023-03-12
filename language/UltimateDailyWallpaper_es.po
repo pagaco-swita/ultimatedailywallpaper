@@ -6,13 +6,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: es_ES\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Patrice Coni <patrice.coni-dev@yandex.com>\n"
-"Language-Team: \n"
-"Language: es_ES\n"
-"X-Generator: Poedit 2.4.2\n"
 
 #: ../src/about.ui:26
 #: ../src/about.cpp:34
@@ -23,15 +16,15 @@ msgstr "Acerca de"
 #: ../src/about.ui:82
 msgctxt "About|"
 msgid ""
-"<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
-"\">UltimateDailyWallpaper</span></p></body></html>"
+"<html><head/><body><p><span style=\" font-size:16pt; "
+"font-weight:700;\">UltimateDailyWallpaper</span></p></body></html>"
 msgstr ""
 
 #: ../src/about.ui:89
 msgctxt "About|"
 msgid ""
-"<html><head/><body><p><span style=\" font-size:12pt;\">Version: </span></p></"
-"body></html>"
+"<html><head/><body><p><span style=\" font-size:12pt;\">Version: "
+"</span></p></body></html>"
 msgstr ""
 
 #: ../src/about.ui:133
@@ -94,11 +87,11 @@ msgstr "Selecciona una foto"
 #: ../src/photobrowser.ui:282
 msgctxt "PhotoBrowser|"
 msgid ""
-"<html><head/><body><p><span style=\" font-weight:700;\">Select date: </"
-"span></p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:700;\">Select date: "
+"</span></p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:700;\">Seleccionar fecha: </"
-"span></p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:700;\">Seleccionar fecha: "
+"</span></p></body></html>"
 
 #: ../src/photobrowser.ui:325
 msgctxt "PhotoBrowser|"
@@ -126,8 +119,8 @@ msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Location to save background photos: </p></body></html>"
 msgstr ""
-"<html><head/><body><p>Ubicación para guardar fotos de fondo: </p></body></"
-"html>"
+"<html><head/><body><p>Ubicación para guardar fotos de fondo: "
+"</p></body></html>"
 
 #: ../src/settingswindow.ui:55
 msgctxt "SettingsWindow|"
@@ -147,8 +140,8 @@ msgstr "Cambiar la foto de fondo del escritorio automáticamente"
 #: ../src/settingswindow.ui:141
 msgctxt "SettingsWindow|"
 msgid ""
-"<html><head/><body><p>Time of day for changing wallpaper automatically: </"
-"p></body></html>"
+"<html><head/><body><p>Time of day for changing wallpaper automatically: "
+"</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Hora del día para cambiar el fondo de pantalla "
 "automáticamente: </p></body></html>"
@@ -206,8 +199,12 @@ msgstr ""
 
 #: ../src/about.cpp:59
 msgctxt "About|"
-msgid "A simple application for changing wallpaper"
-msgstr "Una aplicación sencilla para cambiar el fondo de pantalla"
+msgid "A wallpaper changer"
+msgstr ""
+
+#~ msgctxt "About|"
+#~ msgid "A simple application for changing wallpaper"
+#~ msgstr "Una aplicación sencilla para cambiar el fondo de pantalla"
 
 #: ../src/about.cpp:61
 msgctxt "About|"
@@ -251,7 +248,7 @@ msgstr "Seleccionar directorio"
 
 #: ../src/mainwindow.cpp:304
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Error"
@@ -262,24 +259,24 @@ msgid "No plugins found."
 msgstr "No se han encontrado plugins."
 
 #: ../src/mainwindow.cpp:310
-#: ../src/mainwindow.cpp:716
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "done."
 msgstr "hecho."
 
 #: ../src/mainwindow.cpp:311
-#: ../src/mainwindow.cpp:717
+#: ../src/mainwindow.cpp:722
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr "Plugin utilizado: "
 
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr "Error al cargar el plugin."
 
-#: ../src/mainwindow.cpp:397
+#: ../src/mainwindow.cpp:402
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
@@ -288,63 +285,63 @@ msgstr ""
 "Se detectó un error al iniciar la aplicación.\n"
 "La aplicación se cerrará."
 
-#: ../src/mainwindow.cpp:431
-#: ../src/mainwindow.cpp:783
+#: ../src/mainwindow.cpp:436
+#: ../src/mainwindow.cpp:788
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr "No hay conexión a Internet."
 
-#: ../src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:436
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr "Por favor, compruebe su conexión a Internet."
 
-#: ../src/mainwindow.cpp:706
+#: ../src/mainwindow.cpp:711
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr "&Proveedor"
 
-#: ../src/mainwindow.cpp:744
+#: ../src/mainwindow.cpp:749
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr "&Acerca de esta imagen y licencia"
 
-#: ../src/mainwindow.cpp:748
+#: ../src/mainwindow.cpp:753
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr "&Acerca de esta imagen y derechos de autor"
 
-#: ../src/mainwindow.cpp:755
+#: ../src/mainwindow.cpp:760
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr "&Descargar fotos pasadas"
 
-#: ../src/mainwindow.cpp:759
+#: ../src/mainwindow.cpp:764
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr "&Cargar imagen almacenada"
 
-#: ../src/mainwindow.cpp:762
+#: ../src/mainwindow.cpp:767
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr "&Configuración"
 
-#: ../src/mainwindow.cpp:765
+#: ../src/mainwindow.cpp:770
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr "&Acerca de"
 
-#: ../src/mainwindow.cpp:768
+#: ../src/mainwindow.cpp:773
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr "&Salir"
 
-#: ../src/mainwindow.cpp:855
+#: ../src/mainwindow.cpp:860
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr "Descripción: \n"
 
-#: ../src/mainwindow.cpp:1352
+#: ../src/mainwindow.cpp:1369
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr "Cargar plugin..."

@@ -3,17 +3,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: uk_UA\n"
 "X-Qt-Contexts: true\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Patrice Coni <patrice.coni-dev@yandex.com>\n"
-"Language-Team: \n"
-"Language: uk_UA\n"
-"X-Generator: Poedit 2.4.2\n"
 
 #: ../src/about.ui:26
 #: ../src/about.cpp:34
@@ -24,15 +16,15 @@ msgstr "Про"
 #: ../src/about.ui:82
 msgctxt "About|"
 msgid ""
-"<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;"
-"\">UltimateDailyWallpaper</span></p></body></html>"
+"<html><head/><body><p><span style=\" font-size:16pt; "
+"font-weight:700;\">UltimateDailyWallpaper</span></p></body></html>"
 msgstr ""
 
 #: ../src/about.ui:89
 msgctxt "About|"
 msgid ""
-"<html><head/><body><p><span style=\" font-size:12pt;\">Version: </span></p></"
-"body></html>"
+"<html><head/><body><p><span style=\" font-size:12pt;\">Version: "
+"</span></p></body></html>"
 msgstr ""
 
 #: ../src/about.ui:133
@@ -95,11 +87,11 @@ msgstr "Виберіть фотографію"
 #: ../src/photobrowser.ui:282
 msgctxt "PhotoBrowser|"
 msgid ""
-"<html><head/><body><p><span style=\" font-weight:700;\">Select date: </"
-"span></p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:700;\">Select date: "
+"</span></p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:700;\">Виберіть дату:: </"
-"span></p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:700;\">Виберіть дату:: "
+"</span></p></body></html>"
 
 #: ../src/photobrowser.ui:325
 msgctxt "PhotoBrowser|"
@@ -127,8 +119,8 @@ msgctxt "SettingsWindow|"
 msgid ""
 "<html><head/><body><p>Location to save background photos: </p></body></html>"
 msgstr ""
-"<html><head/><body><p>Розташування для збереження фонових фотографій: </p></"
-"body></html>"
+"<html><head/><body><p>Розташування для збереження фонових фотографій: "
+"</p></body></html>"
 
 #: ../src/settingswindow.ui:55
 msgctxt "SettingsWindow|"
@@ -148,11 +140,11 @@ msgstr "Автоматична зміна фотографії тла робоч
 #: ../src/settingswindow.ui:141
 msgctxt "SettingsWindow|"
 msgid ""
-"<html><head/><body><p>Time of day for changing wallpaper automatically: </"
-"p></body></html>"
+"<html><head/><body><p>Time of day for changing wallpaper automatically: "
+"</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Час доби для автоматичної зміни шпалер: </p></body></"
-"html>"
+"<html><head/><body><p>Час доби для автоматичної зміни шпалер: "
+"</p></body></html>"
 
 #: ../src/settingswindow.ui:181
 msgctxt "SettingsWindow|"
@@ -207,8 +199,12 @@ msgstr "Авторське право © 2022 - "
 
 #: ../src/about.cpp:59
 msgctxt "About|"
-msgid "A simple application for changing wallpaper"
-msgstr "Просте додаток для зміни шпалер"
+msgid "A wallpaper changer"
+msgstr ""
+
+#~ msgctxt "About|"
+#~ msgid "A simple application for changing wallpaper"
+#~ msgstr "Просте додаток для зміни шпалер"
 
 #: ../src/about.cpp:61
 msgctxt "About|"
@@ -251,7 +247,7 @@ msgstr "Виберіть каталог"
 
 #: ../src/mainwindow.cpp:304
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Помилка"
@@ -262,24 +258,24 @@ msgid "No plugins found."
 msgstr "Плагінів не знайдено."
 
 #: ../src/mainwindow.cpp:310
-#: ../src/mainwindow.cpp:716
+#: ../src/mainwindow.cpp:721
 msgctxt "MainWindow|"
 msgid "done."
 msgstr "зроблено."
 
 #: ../src/mainwindow.cpp:311
-#: ../src/mainwindow.cpp:717
+#: ../src/mainwindow.cpp:722
 msgctxt "MainWindow|"
 msgid "Used plugin: "
 msgstr "Використовуваний плагін: "
 
 #: ../src/mainwindow.cpp:315
-#: ../src/mainwindow.cpp:721
+#: ../src/mainwindow.cpp:726
 msgctxt "MainWindow|"
 msgid "Error while loading plugin."
 msgstr "Помилка під час завантаження плагіна."
 
-#: ../src/mainwindow.cpp:397
+#: ../src/mainwindow.cpp:402
 msgctxt "MainWindow|"
 msgid ""
 "An error was detected when starting the application.\n"
@@ -288,63 +284,63 @@ msgstr ""
 "An error was detected when starting the program.\n"
 "The application will be closed."
 
-#: ../src/mainwindow.cpp:431
-#: ../src/mainwindow.cpp:783
+#: ../src/mainwindow.cpp:436
+#: ../src/mainwindow.cpp:788
 msgctxt "MainWindow|"
 msgid "No connection to the internet."
 msgstr "Немає підключення до інтернету."
 
-#: ../src/mainwindow.cpp:431
+#: ../src/mainwindow.cpp:436
 msgctxt "MainWindow|"
 msgid "Please check your internet connection."
 msgstr "Будь ласка, перевірте підключення до Інтернету."
 
-#: ../src/mainwindow.cpp:706
+#: ../src/mainwindow.cpp:711
 msgctxt "MainWindow|"
 msgid "&Provider"
 msgstr "&Постачальника"
 
-#: ../src/mainwindow.cpp:744
+#: ../src/mainwindow.cpp:749
 msgctxt "MainWindow|"
 msgid "&About this picture and license"
 msgstr "&Про цю картинку і ліцензію"
 
-#: ../src/mainwindow.cpp:748
+#: ../src/mainwindow.cpp:753
 msgctxt "MainWindow|"
 msgid "&About this picture and copyright"
 msgstr "&Про цю картину і авторські права"
 
-#: ../src/mainwindow.cpp:755
+#: ../src/mainwindow.cpp:760
 msgctxt "MainWindow|"
 msgid "&Download past pictures"
 msgstr "&Завантаження минулих зображень"
 
-#: ../src/mainwindow.cpp:759
+#: ../src/mainwindow.cpp:764
 msgctxt "MainWindow|"
 msgid "&Load stored picture"
 msgstr "&Відкриття збереженого зображення"
 
-#: ../src/mainwindow.cpp:762
+#: ../src/mainwindow.cpp:767
 msgctxt "MainWindow|"
 msgid "&Settings"
 msgstr "&Параметри"
 
-#: ../src/mainwindow.cpp:765
+#: ../src/mainwindow.cpp:770
 msgctxt "MainWindow|"
 msgid "&About"
 msgstr "&Про"
 
-#: ../src/mainwindow.cpp:768
+#: ../src/mainwindow.cpp:773
 msgctxt "MainWindow|"
 msgid "&Quit"
 msgstr "&Кинути"
 
-#: ../src/mainwindow.cpp:855
+#: ../src/mainwindow.cpp:860
 msgctxt "MainWindow|"
 msgid "Description: \n"
 msgstr "Опис: \n"
 
-#: ../src/mainwindow.cpp:1352
+#: ../src/mainwindow.cpp:1369
 msgctxt "MainWindow|"
 msgid "Load plugin..."
 msgstr "Запуск плагіна..."
